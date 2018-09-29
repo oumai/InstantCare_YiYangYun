@@ -1,0 +1,713 @@
+/*
+ LocalLanguage.strings
+ InstantCare
+ 
+ Created by bruce-zhu on 15/11/27.
+ Copyright © 2015年 omg. All rights reserved.
+ */
+
+
+"CFBundleDisplayName"  = "医养云";
+
+// ------------ 通用 ------------
+"Common_language_status" = "ch";
+"Common_save_success" = "保存成功";
+"Common_network_request_OK" = "网络请求成功";
+"Common_network_request_fail" = "网络请求失败";
+"Common_network_net_error" = "网络连接错误";
+"Common_network_request_now" = "正在请求，请稍候";
+"Common_network_uploading" = "正在上传";
+
+"Common_OK" = "确认";
+"Common_save" = "保存";
+"Common_cancel" = "取消";
+"Common_input_error" = "输入有误";
+
+// 推送消息
+"Device_low_power" = "低电量";
+
+
+// ------------ HTML ----------
+"HTML_type_question"="faq.html";
+"HTML_type_help_app"="help_app.html";
+"HTML_type_help_8000"="help_8000.html";
+"HTML_type_help_8010"="help_8010.html";
+"HTML_type_protocol"="隐私条款.html";
+
+
+// ------------- VC -------------
+
+"LaunchVC_button_title" = "开启健康之旅";
+
+"VC_login_email" = "电子邮件";
+"VC_login_phone" = "手机号";
+"VC_login_pd" = "密码";
+"VC_login_userName"="用户名";
+
+"VC_login_remember" = "记得我的登录信息";
+"VC_login_forgetPd" = "忘记密码?";
+"VC_login_save_password" = "记住密码";
+
+
+"VC_login_login" = "登录";
+"VC_login_OK" = "确认";
+"VC_login_Reg" = "注册";
+
+"VC_login_error_input" = "登录失败，请检查用户名和密码！";
+"VC_login_login_now" = "正在登录";
+"VC_login_login_success" = "登录成功";
+"VC_login_login_fail" = "登录失败";
+"VC_login_foundPassword_fail"="密码找回失败";
+"VC_login_foundPassword_success"="密码找回成功";
+
+// ----------- Main VC ----------
+"MAIN_VC_version" = "版本号";
+"MAIN_VC_title" = "首页";
+"MAIN_VC_location_btn" = "定位记录";
+"MAIN_VC_health_btn" = "健康记录";
+"MAIN_VC_call_btn" = "语音通话";
+"MAIN_VC_vip_btn" = "SIM卡\n实名认证";
+"MAIN_VC_record_btn"="健康档案";
+"MAIN_VC_title_basicinfo"="基本资料";
+"MAIN_VC_title_personal"="随身健康档案";
+"MAIN_VC_title_personal_detail"="体检详情";
+
+
+
+"MAIN_VC_new_version" = "软件升级";
+"MAIN_VC_new_version_msg" = "发现新版本%%%@, 是否升级?";
+"MAIN_VC_new_version_update" = "升级";
+
+"MAIN_VC_menu_accout" = "账户设定";
+"MAIN_VC_menu_device" = "设备管理";
+"MAIN_VC_menu_logout" = "正在退出";
+"MAIN_VC_menu_language" = "语言设定";
+
+// --------- Register VC --------
+"Reg_VC_title" = "注册";
+"Reg_VC_tip_name" = "姓名";
+"Reg_VC_tip_nickname" = "昵称";
+"Reg_VC_tip_email" = "E-mail";
+"Reg_VC_tip_password" = "登入密码";
+"Reg_VC_tip_again_pd" = "再次输入密码";
+"Reg_VC_tip_birthday" = "点击以输入生日";
+"Reg_VC_tip_address" = "地址";
+"Reg_VC_tip_phone" = "电话";
+"Reg_VC_birthday" = "生日";
+"Reg_VC_birthday_cancel" = "取消";
+"Reg_VC_birthday_OK" = "确定";
+"Reg_VC_register_tip" = "E-mail和密码必须填写";
+"Reg_VC_register_password_error" = "请输入正确的密码";
+"Reg_VC_register_now" = "正在注册，请稍候";
+"Reg_VC_register_success" = "注册成功";
+"Reg_VC_register_fail" = "注册失败";
+
+"Reg_VC_register_Verify"="验证码";
+"Reg_VC_register_GetVerify"="获取验证码";
+"Reg_VC_register_protocol"="我已阅读并同意";
+"Reg_VC_register_protocol_text"="《康美健康云协议》";
+"Reg_VC_register_finish"="完成";
+"Reg_VC_register_request_success"="已经成功发送验证码,请注意查收。";
+"Reg_VC_register_request_fail"="验证码发送失败！";
+"Reg_VC_register_request_wait"="s 后重新发送";
+"Reg_VC_register_protocol_title"="用户协议";
+
+
+// --------- LogOut ---------
+"Logout_title"="重新登录";
+"Logout_message"="是否返回登录界面？";
+
+
+// --------- Location VC --------
+"Location_VC_card_btn" = "打卡";
+"Location_VC_history_btn" = "历史";
+"Location_VC_SOS_btn" = "救援";
+"Location_VC_latest_record" = "最新记录";
+"Location_VC_location_now" = "正在获取地址";
+"Location_VC_location_fail" = "地址获取失败";
+"Location_VC_location_no_records" = "没有资料";
+"Location_VC_checkin" = "签入";
+"Location_VC_checkout" = "签出";
+"Location_VC_not_checkout" = "未签出";
+"Location_VC_check_val" = "打卡点数";
+"Location_VC_check_records" = "打卡记录";
+"Location_VC_his_records" = "活动区域";
+"Location_VC_emg_records" = "救援记录";
+"Location_VC_push_emg_records" = "救援";
+"Location_VC_fall_records" = "跌倒记录";
+"Location_VC_push_fall_records" = "跌倒";
+"Location_VC_Travle_to" = "立即定位";
+
+// --------- Geofence VC --------
+"Geofence_VC_title" = "电子围栏";
+"Geofence_VC_time" = "定时定位";
+"Geofence_VC_location" = "定位";
+"Geofence_VC_click_notes" = "点击地图获取电子围栏中心点";
+"Geofence_VC_longitude" = "当前经度";
+"Geofence_VC_latitude" = "当前纬度";
+"Geofence_VC_radius" = "围栏半径";
+"Geofence_VC_Geofence_ON" = "开启围栏";
+"Geofence_VC_address" = "地址";
+"Geofence_VC_meter" = "米";
+"Geofence_VC_time_interval" = "间隔";
+"Geofence_VC_not_setting" = "未设置";
+"Geofence_VC_ON_notes" = "打开";
+"Geofence_VC_OFF_notes" = "关闭";
+"Geofence_SearchAddress" ="搜索";
+
+
+// --------- call VC ---------
+"Call_VC_noSet_phone"="未设置手机号码";
+
+// ------ Device Setting VC -----
+"BindDevice_VC_title" = "选择";
+
+
+// ------ Personal information VC -----
+"Personal_info_Account"="个人资料";
+"Personal_info_save" = "保存";
+"Personal_info_change_password" = "修改密码";
+"Personal_info_birthday_selectedTime" = "选择出生日期";
+"Personal_info_change_oldPassword" = "原密码";
+"Personal_info_change_oldPassword_error" = "原密码错误";
+"Personal_info_change_newPassword" = "新密码";
+"Person_address_alert"="请将输入内容限定在35个字符以内！";
+"Person_idCard" = "身份证号码";
+"Person_alert"="您还没有填写身份证号码！";
+"Personal_IDCard_alert" = "身份证保存失败请输入一个有效的身份证号码。";
+
+
+// ------ Device Setting VC -----
+"DeviceSetting_VC_current_device" = "正在使用";
+"DeviceSetting_VC_select" = "选择执行的操作";
+"DeviceSetting_VC_no_device_bind" = "没有绑定任何设备，请前往绑定";
+"DeviceSetting_VC_edit" = "编辑";
+"DeviceSetting_VC_delete" = "删除";
+"DeviceSetting_VC_delete_confirm" = "是否确认删除该笔资料?";
+"DeviceSetting_VC_delete_success" = "资料成功删除";
+"DeviceSetting_VC_OK" = "确认";
+"DeviceSetting_VC_cancel" = "取消";
+"DeviceSetting_VC_add_device" = "新增资料";
+"DeviceSetting_VC_add_header_tip" = "点击头像以做更换";
+"DeviceSetting_VC_add_name" = "名字";
+"DeviceSetting_VC_add_phone" = "电话";
+"DeviceSetting_VC_add_imei" = "IMEI码";
+"DeviceSetting_VC_add_imei_error" = "IMEI输入有误";
+"DeviceSetting_VC_add_OK" = "完成";
+"DeviceSetting_VC_add_cancel" = "取消";
+"DeviceSetting_VC_edit_change_icon" = "点击以更换";
+"DeviceSetting_VC_edit_device_setting" = "硬件设置";
+"DeviceSetting_VC_edit_device_setting_detail" = "跌倒侦测, GPS启动频率, 上传间隔...";
+
+"DeviceSetting_VC_edit_header_src" = "选择头像来源";
+"DeviceSetting_VC_edit_header_src_camera" = "照相机";
+"DeviceSetting_VC_edit_header_src_gallery" = "本地相册";
+
+"DeviceSetting_VC_SIM" = "SIM卡号";
+"DeviceSetting_VC_is_SIM" = "是否为预装SIM卡?";
+"DeviceSetting_VC_YES" = "是";
+"DeviceSetting_VC_NO" = "否";
+"DeviceSetting_VC_Preinstalled_SIM" = "内置SIM卡号(二维码)";
+"DeviceSetting_VC_SIM_QRCode" = "IMEI（条形码）";
+"DeviceSetting_VC_Authentication_Code" = "手表认证码(123456)";
+"DeviceSetting_VC_agree_protocol" = "同意个人资料与个人电子健康档案关联";
+"DeviceSetting_VC_user_header" = "头像";
+"DeviceSetting_VC_scan" = "扫一扫";
+"DeviceSetting_VC_check_again" = "参数输入有误, 请检查";
+"DeviceSetting_VC_agree" = "请同意关联协议";
+"DeviceSetting_VC_phone"="未设置号码";
+
+"DeviceSetting_VC_delete_devices" = "是否确认删除?";
+"DeviceSetting_VC_alert_refresh" = "手表还未确认绑定，请确认后刷新编辑。";
+"DeviceSetting_VC_alert_delete"  = "手表未同意绑定，我们将移除该手表!";
+
+
+
+
+// ------------ Device Edit VC ----------
+"DeviceEdit_VC_title" = "编辑资料";
+"DeviceEdit_VC_watch_select_title" = "请选择您的装置图像";
+
+"DeviceEdit_VC_setting_title_device_auth" = "认证码";
+"DeviceEdit_VC_setting_title_device_auth_detail" = "更新、重置";
+"DeviceEdit_VC_setting_title_device_set" = "硬件设置";
+"DeviceEdit_VC_setting_title_device_set_detail" = "启动频率、定位";
+"DeviceEdit_VC_setting_title_call_set" = "拨号设置";
+"DeviceEdit_VC_setting_title_call_set_detail" = "亲情号码、紧急号码等";
+"DeviceEdit_VC_setting_title_body_set" = "运动计步";
+"DeviceEdit_VC_setting_title_body_set_detail" = "身高、步长、体重";
+"DeviceEdit_VC_setting_title_device_remind" = "提醒设置";
+"DeviceEdit_VC_setting_title_device_remind_detail" = "设定回诊、吃药等定时提醒功能";
+"DeviceEdit_VC_setting_title_device_reset" = "重置";
+"DeviceEdit_VC_setting_title_device_reset_detail" = "恢复原始设置";
+"DeviceEdit_VC_setting_title_device_verify_oldVerify" = "旧的认证码";
+"DeviceEdit_VC_setting_title_device_verify_newVerify" = "新的认证码";
+"DeviceEdit_VC_setting_title_device_reset_msg"="是否恢复原始设置？";
+"DeviceEdit_VC_setting_title_device_reset_success"="重置成功";
+"DeviceEdit_VC_setting_title_device_reset_fail"="重置失败";
+"DeviceEdit_VC_setting_title_device_auth_oldCode"="旧的认证码不能为空！";
+"DeviceEdit_VC_setting_title_device_auth_newCode"="新的认证码不能为空！";
+"DeviceEdit_VC_setting_title_device_remind_customRemind"="未设置提醒内容！";
+"DeviceEdit_VC_setting_title_call_time" = "通话限时";
+"DeviceEdit_VC_setting_title_call_min" = "分钟";
+"DeviceEdit_VC_setting_title_myWear" = "是否为当前使用设备";
+"DeviceEdit_VC_setting_Authentication" = "SIM卡未进行身份认证, 请到会员服务中心进行身份认证(未进行身份认证的SIM卡仅三个月有效期)";
+
+
+// ------ Device Setting Detail VC -----
+"DeviceSettingDetail_VC_title" = "硬件设置";
+"DeviceSettingDetail_VC_falldown" = "跌倒侦测";
+"DeviceSettingDetail_VC_poweron_time" = "定时开机";
+"DeviceSettingDetail_VC_poweroff_time" = "定时关机";
+"DeviceSettingDetail_VC_listen" = "背景监听";
+"DeviceSettingDetail_VC_light_on" = "抬手亮屏";
+
+"DeviceSettingDetail_VC_start_frequency" = "启动频率";
+"DeviceSettingDetail_VC_gps_on" = "定位启动频率";
+"DeviceSettingDetail_VC_upload" = "上传间隔频率";
+"DeviceSettingDetail_VC_every" = "每";
+"DeviceSettingDetail_VC_every_minute" = "分钟";
+"DeviceSettingDetail_VC_shutdown" = "关闭";
+
+// --- Device Setting Detial Call VC ---
+"DeviceSettingDetailCall_VC_title" = "拨号设置";
+"DeviceSettingDetailCall_VC_call_mute" = "防打扰";
+"DeviceSettingDetailCall_VC_call_limit" = "通话限时";
+"DeviceSettingDetailCall_VC_call_set" = "通话设置";
+"DeviceSettingDetailCall_VC_call_family_number" = "亲情号码";
+"DeviceSettingDetailCall_VC_call_sos_number" = "紧急号码";
+"DeviceSettingDetailCall_VC_call_sos" = "跌倒号码";
+"DeviceSettingDetailCall_VC_call_sos_sms" = "求救短信";
+
+
+"DeviceSettingDetailCall_VC_call_first_group" = "第一组";
+"DeviceSettingDetailCall_VC_call_second_group" = "第二组";
+"DeviceSettingDetailCall_VC_call_third_group" = "第三组";
+"DeviceSettingDetailCall_VC_call_fourth_group" = "第四组";
+
+"DeviceSettingDetailCall_VC_call_default" = "预设号码不可更改";
+// -- Device Setting Detail Body VC --
+"DeviceSettingDetailBody_VC_step" = "步距设置（cm）";
+"DeviceSettingDetailBody_VC_height" = "身高设置（cm）";
+"DeviceSettingDetailBody_VC_weight" = "体重设置（kg）";
+"DeviceSettingDetailBody_VC_alert" = "请将输入范围限定在：";
+
+
+// 周
+"Remind_week_1" = " 一";
+"Remind_week_2" = " 二";
+"Remind_week_3" = " 三";
+"Remind_week_4" = " 四";
+"Remind_week_5" = " 五";
+"Remind_week_6" = " 六";
+"Remind_week_7" = " 日";
+
+"Remind_week_weekonce" = "一次";
+"Remind_week_week1" = "周一";
+"Remind_week_week2" = "周二";
+"Remind_week_week3" = "周三";
+"Remind_week_week4" = "周四";
+"Remind_week_week5" = "周五";
+"Remind_week_week6" = "周六";
+"Remind_week_week7" = "周日";
+
+// -- Remind Setting VC ---
+"RemindSettingVC_clinic" = "回诊提醒";
+"RemindSettingVC_clinic_tip" = "可设置定时提醒功能";
+"RemindSettingVC_medical" = "吃药提醒";
+"RemindSettingVC_remind" = "自定义提醒";
+
+"Remind_Start" = "开启";
+"Remind_Time" = "时间";
+"Remind_info" = "提醒内容";
+"Remind_repeat" = "重复提醒";
+"Remind_date" = "提醒日期";
+"Remind_custom_delete_fail"="删除失败";
+"Remind_TimeChecking" = "开始时间需要小于结束时间!";
+"Remind_TimeIntervalChecking" = "时间间隔只能大于等于5!";
+"Remind_TimeIntervalIntChecking" = "时间间隔必须为整数!";
+
+
+
+// ------- Health Record VC -----
+"HealthRecord_VC_no_records" = "没有记录";
+"HealthRecord_VC_blood_pressure" = "血压";
+"HealthRecord_VC_blood_pressure_unit" = "血压(mmHg)";
+"HealthRecord_VC_sbp_title" = "收缩压";
+"HealthRecord_VC_dbp_title" = "舒张压";
+"HealthRecord_VC_pluse_title" = "脉搏";
+"HealthRecord_VC_pluse_unit" = "次/分钟";
+
+"HealthRecord_VC_blood_sugar" = "血糖";
+"HealthRecord_VC_blood_sugar_unit_mmol" = "血糖(mmol/L)";
+"HealthRecord_VC_blood_sugar_unit_mg" = "血糖(mg/dL)";
+"HealthRecord_VC_blood_sugar_unit_change" = "单位切换";
+
+
+
+"HealthRecord_VC_heart_rate" = "心率";
+"HealthRecord_VC_heart_rate_unit" = "次/分钟";
+"HealthRecord_VC_heart_rate_test" = "立即测试心率";
+
+"HealthRecord_VC_pedometer" = "计步";
+"HealthRecord_VC_pedometer_numbers" = "步数（步）";
+"HealthRecord_VC_pedometer_cal" = "卡路里";
+"HealthRecord_VC_pedometer_cal_unit" = "cal";
+"HealthRecord_VC_pedometer_dis" = "距离";
+"HealthRecord_VC_pedometer_dis_unit" = "m";
+"HealthRecord_VC_pedometer_standard" = "标准值";
+
+"HealthRecord_VC_sleepAnalysis" = "睡眠";
+"HealthRecord_VC_sleepQuality" = "睡眠质量(%)";
+"HealthRecord_VC_sleepTypeDeep" = "深睡眠";
+"HealthRecord_VC_sleepTypeQuiet" = "安静睡眠";
+"HealthRecord_VC_sleepActiveCount" = "活动次数";
+"HealthRecord_VC_sleepActiveTime" = "活动时间";
+"HealthRecord_VC_sleepHeartRate" = "心率";
+"HealthRecord_VC_sleepAvgHeartRate" = "平均心率";
+"HealthRecord_VC_sleepMaxHeartRate" = "最大";
+"HealthRecord_VC_sleepMinHeartRate" = "最小";
+"HealthRecord_VC_sleepHeartRateCPM" = "次/分钟";
+"HealthRecord_VC_sleepActiveCountTime" = "次";
+"HealthRecord_VC_sleepTotalTime" = "总睡眠时间:";
+"HealthRecord_VC_sleepAVGQuality" = "睡眠质量:";
+"HealthRecord_VC_sleepHour" = "小时";
+"HealthRecord_VC_sleepMin" = "分钟";
+
+"HealthRecord_VC_bo" = "血氧";
+
+"HealthRecord_VC_init_tip" = "请从上方点击您希望取得的健康资讯项目";
+
+"HealthRecord_VC_last_checktime" = "最后测量时间";
+"HealthRecord_VC_change_date" = "选择日期";
+
+"HealthRecord_VC_change_date_start" = "开始日期";
+"HealthRecord_VC_change_date_end" = "结束日期";
+"HealthRecord_VC_change_date_to" = "至";
+
+"HealthRecord_VC_change_date_error" = "日期选择错误，请重新选择";
+
+"HealthRecord_VC_lower_than" = "低于";
+
+"HealthRecord_VC_last_time" = "最后测量时间";
+
+// 健康提示
+// 血压
+"HealthRecord_VC_hBP" = "您最后一次量测结果：血压偏高";
+"HealthRecord_VC_lBP" = "您最后一次量测结果：血压偏低";
+"HealthRecord_VC_okBP" = "您最后一次量测结果：血压正常";
+
+"HealthRecord_VC_hBP_Suggest" = "请注意低盐、低脂饮食。高血压患者每天钠盐摄入量应控制在3克以下。戒烟限酒，忌浓茶、咖啡等刺激性食物，多吃粗粮、蔬菜水果。适当运动，生活规律，不熬夜，保证充足的睡眠，避免压力、紧张、焦虑、抑郁等不良情绪。体重超标者减重至理想体重，有糖尿病、高脂血症者应积极治疗。\n测量血压结果偏高时，充分休息后复查血压，如果反复出现血压结果偏高或者近期有头晕、胸闷、视物模糊等不适症状，请及时就医诊疗。";
+"HealthRecord_VC_lBP_Suggest" = "生活要有规律，防止过度疲劳，适当加强锻炼，提高身体素质，每餐不宜吃得过饱，适量饮茶。若反复出现血压偏低，建议先寻求医师帮助来排除器质性疾病的问题，并分析目前服用药物情况，评估是否有造成低血压的因素。\n若是体质性且有症状的低血压，饮食建议适当增加水分、盐份、咖啡因的摄取，并注意足够营养，可进食高蛋白、高维生素的食物，尤其是体质虚弱者，更要保证摄取足够的营养。\n此外，规律的运动(尤其是下肢运动)、使用弹性袜都可以帮助血压的上升；日常生活也应注意姿势的改变，以防止晕眩或跌倒的发生。洗澡时间不宜过长，避免久站，起床时，不要猛然站起身，应先确定身体已平衡，再慢慢起来。";
+"HealthRecord_VC_okBP_Suggest" = "按时复测，保持正常血压，祝您身体健康。";
+
+// 血糖
+"HealthRecord_VC_hBS" = "您最后一次量测结果：血糖偏高";
+"HealthRecord_VC_lBS" = "您最后一次量测结果：血糖偏低";
+"HealthRecord_VC_okBS" = "您最后一次量测结果：血糖正常";
+
+"HealthRecord_VC_hBS_Suggest" = "低糖低脂饮食，戒烟限酒，忌糖及甜饮料、罐头等含糖高的食品，多吃粗杂粮、新鲜蔬菜，少吃精米白面、油腻食物，适量食用水果，坚持长期适量运动。体重超标者减重至理想体重，有高血压病、高脂血症者应积极治疗。\n测量血糖结果偏高时，充分休息、去除感染、外伤等应急情况后复查血糖，如果反复出现血糖结果偏高或者近期有多饮、多食、多尿、视物模糊等不适症状，请及时就医诊疗。";
+"HealthRecord_VC_lBS_Suggest" = "定时定量进餐，运动前应增加额外的碳水化合物摄入，避免酗酒和空腹饮酒。对于轻中度低血糖，口服糖水、含糖饮料，或进食糖果、饼干、面包、馒头等即可缓解。对于药物性低血糖，应及时停用相关药物。重者和疑似低血糖昏迷的患者及时就医诊疗。定期监测血糖，尤其在血糖波动大、环境、运动等因素改变时要密切监测血糖。\n糖尿病患者出现低血糖，应注意在专业医师指导下调整降糖方案：合理使用胰岛素或胰岛素促分泌剂。";
+"HealthRecord_VC_okBS_Suggest" = "按时复查，祝您身体健康。";
+
+// 血氧
+"HealthRecord_VC_hBO" = "您最后一次量测结果：血氧异常";
+"HealthRecord_VC_lBO" = "您最后一次量测结果：血氧偏低";
+"HealthRecord_VC_verylow_BO" = "您最后一次量测结果：血氧严重偏低";
+"HealthRecord_VC_okBO" = "您最后一次量测结果：血氧正常";
+
+"HealthRecord_VC_h100BO_Suggest" = "建议去医院复测";
+"HealthRecord_VC_h98_100BO_Suggest" = "建议去医院复测";
+"HealthRecord_VC_lBO_Suggest" = "请注意休息，清淡饮食，稳定情绪，调整好状态并复查血氧。\n如果复查结果仍为血氧偏低：（1）当您位于海拔3000米以下位置，请及时就医诊疗。（2）当你位于海拔3000米以上位置，请注意定期复查。";
+"HealthRecord_VC_veryLow_BO_Suggest" = "请及时吸氧，同时注意休息，清淡饮食，稳定情绪，调整好状态并复查血氧。\n如果复查结果仍为血氧严重偏低，请及时就医诊疗。";
+"HealthRecord_VC_okBO_Suggest" = "按时复查，祝您身体健康。";
+
+// 心率
+"HealthRecord_VC_hHR" = "您最后一次量测结果：心率过速";
+"HealthRecord_VC_lHR" = "您最后一次量测结果：心率过缓";
+"HealthRecord_VC_okHR" = "您最后一次量测结果：正常窦性心律";
+
+"HealthRecord_VC_hHR_Suggest" = "请注意不能过度体力活动、情绪激动、饱餐、饮浓茶、饮咖啡、吸烟、饮酒等，以避免交感神经兴奋导致心率加快。若由高热、贫血、甲亢、出血、疼痛、缺氧、心衰和心肌病等疾病引起心动过速应立即送医院救治并明确病因，明确诊断是哪种原因引起的心动过速，根据病情制定合理的治疗方案，并注意饮食，养成良好作息规律。";
+"HealthRecord_VC_lHR_Suggest" = "请注意保持适当休息，饮食宜高热量、高维生素而易消化的食物，平时可服用益气养心的药膳，如人参粥、大枣粥、莲子粥等；应戒烟忌酒，避免食用过硬不消化及带刺激的食物，如病人头晕等症状明显，且伴气短，心绞痛、既往有心功能不全或中枢神经系统功能障碍及其他心脑血管病史，且心率低于60次/分时及时到医院心血管科就诊并明确病因。";
+"HealthRecord_VC_okHR_Suggest" = "按时复查，祝您身体健康。";
+
+
+// ---------- VIP service -------
+"VIPService_VC_Authentication" = "身份认证";
+"VIPService_VC_upload_persent" = "正在上传";
+"VIPService_VC_upload_complete" = "正在识别身份证信息";
+
+"VIPService_VC_upload_card_top" = "上传身份证正面";
+"VIPService_VC_upload_card_bottom" = "上传身份证反面";
+"VIPService_VC_alert_SIM" = "SIM卡號、身份證正反面必須填寫";
+
+
+// ----------- call VC ----------
+"Call_VC_calltype" = "请选择要拨打的方式";
+"Call_VC_SpeedDial" = "快速拨号";
+"Call_VC_Envlistening" = "环境监听";
+"Call_VC_getdevices" = "正在获取设备列表";
+"Call_VC_getdevices_success" = "获取成功";
+"Call_VC_getdevices_fail" = "获取失败";
+"Call_VC_getdevices_user_name_not_set" = "姓名未设置";
+"Call_VC_getdevices_phone_number_not_set" = "电话号码";
+"Call_VC_getdevices_phone_number_not_set_tip" = "请先设置电话号码";
+
+
+// ------ Account Set VC --------
+"AccountSetting_VC_title" = "账户设定";
+"AccountSetting_VC_btn_title" = "显示密码";
+"AccountSetting_VC_btn_title_hide" = "隐藏密码";
+
+// ------ Account Edit VC -------
+"AccountEdit_VC_title" = "账户设定";
+
+// --------- QRCode VC ----------
+"QRCode_VC_start_camera" = "相机启动中";
+"QRCode_VC_camera_permission" = "请到设置隐私中开启本程序相机权限";
+
+// -------- MJRefresh -----------
+"MJRefresh_Pull_down_refresh" = "下拉可以刷新";
+"MJRefresh_Refresh_Now" = "立即刷新";
+"MJRefresh_Refreshing_data" = "正在刷新数据";
+"MJRefresh_last_update" = "最后更新: ";
+"MJRefresh_last_update_no_record" = "最后更新: 无记录";
+
+"SlideVC_person_info" = "个人资料";
+"SlideVC_device_manage" = "设备管理";
+"SlideVC_device_call" = "拨打电话";
+"SlideVC_help"="帮助文档";
+"SlideVC_question"="常见问题";
+"SlideVC_logout" = "退出登录";
+
+// ------- 自定义提示框提示内容 -------
+// register
+"CustomAlert_phone_title"="请输入有效手机号码！";
+"CustomAlert_password_title"="密码长度不能小于6位！";
+"CustomAlert_verity_title"="验证码不能为空!";
+"CustomAlert_protocol_title"="请同意用户协议!";
+"CustomAlert_againPW_title"="两次输入的密码不一致！";
+
+/**-------------------- 8020添加字段 ----------------------*/
+// 提醒
+// 日期范围限定
+"DeviceManager_HealthSetting_alert_time"="开始时间需要小于结束时间！";
+"DeviceManager_HealthSetting_alert_span_type"="时间间隔必须为整数！";
+"DeviceManager_HealthSetting_alert_span_limit"="时间间隔只能大于等于5！";
+"DeviceManager_HealthSetting_alert_limit"="上限数值应高于下限数值，请重新输入";
+// 限定范围设定
+"DeviceManager_HealthSetting_alert_range"="数值范围超过限定范围";
+"DeviceManager_HealthSetting_alert_limit_range"="限定范围是";
+// 短信设定
+"DeviceManager_HealthSetting_alert_message_length"="短信内容超出范围\n（请控制在170字节）！";
+"DeviceManager_HealthSetting_alert_message_limit"="短信内容只能输入英文、数字、汉字！";
+"DeviceManager_HealthSetting_alert_message_bytes"="请限定输入内容在140字节以内！";
+
+// 单位
+// DBP低压   SBP高压
+"DeviceManager_HealthSetting_DBP"="低压（舒张压mmHg）";
+"DeviceManager_HealthSetting_SBP"="高压（收缩压mmHg)";
+//上限  下限
+"DeviceManager_HealthSetting_limit_upper"="上限";
+"DeviceManager_HealthSetting_limit_lower"="下限";
+//摩尔
+"DeviceManager_HealthSetting_mole"="毫摩尔/升";
+
+/**-------- 心率 ----------*/
+"DeviceManager_HealthSetting_heathRate"="心率";
+"DeviceManager_HealthSetting_HeathRate_Scope"="心率范围";
+"DeviceManager_HealthSetting_HeathRate_check"="定时检测心率";
+"DeviceManager_HealthSetting_HeathRate_alert"="心率警报";
+
+/**-------- 血 ----------*/
+"DeviceManager_HealthSetting_bloodSugar"="血糖";
+"DeviceManager_HealthSetting_bloodSugar_Scope"="血糖范围";
+"DeviceManager_HealthSetting_blood_Scope"="血压范围";
+"DeviceManager_HealthSetting_bloodOxygen"="血氧";
+"DeviceManager_HealthSetting_bloodPressure"="血压";
+
+
+/**-------- 检测 ----------*/
+"DeviceManager_HealthSetting_sleepMonitor"="睡眠检测";
+"DeviceManager_HealthSetting_sleepMonitor_setting"="睡眠监测设置";
+"DeviceManager_HealthSetting_Sedentary"="久坐";
+"DeviceManager_HealthSetting_Sedentary_remind"="久坐提醒";
+
+/**-------- 时间区间 ----------*/
+"DeviceManager_HealthSetting"="健康设置";
+"DeviceManager_HealthSetting_time_interval"="时间间隔";
+"DeviceManager_HealthSetting_time_minute"="分钟";
+"DeviceManager_HealthSetting_time_close"="关闭";
+"DeviceManager_HealthSetting_time_start"="开始时间";
+"DeviceManager_HealthSetting_time_end"="结束时间";
+"DeviceManager_HealthSetting_time_muteSetting"="静音时间段设置";
+
+
+/**-------- 占位字符 ----------*/
+"DeviceManager_HealthSetting_alert_remind_content"="请输入提醒内容";
+"DeviceManager_HealthSetting_alert_remind_title"="提醒内容";
+"DeviceManager_HealthSetting_alert_remind_automatic"="自动模式开启";
+"DeviceManager_HealthSetting_alert_call_setting"="通话设置";
+"DeviceManager_HealthSetting_alert_call_onceDay"="每天";
+"DeviceManager_HealthSetting_alert_call_onceTime"="一次";
+"DeviceManager_HealthSetting_alert_call_unSet"="未设置";
+
+"DeviceManager_HealthSetting_sex_setting"="性别设置";
+"DeviceManager_HealthSetting_sex_man"="男";
+"DeviceManager_HealthSetting_sex_woman"="女";
+"DeviceManager_HealthSetting_sex_unknown"="未知";
+"DeviceManager_HealthSetting_age_setting"="年龄设置";
+"DeviceManager_HealthSetting_position_section_setting"="定位分段设置";
+"DeviceManager_HealthSetting_sos_message"="求救短息";
+"DeviceManager_HealthSetting_step"="计步";
+"DeviceManager_HealthSetting_time"="时间";
+"DeviceManager_HealthSetting_interval"="间隔";
+
+// changePassword
+"ChangePassword_DecetionError_oldNull"="请填写旧密码!";
+"ChangePassword_DecetionError_newNull"="新密码长度不能小于6位！";
+"ChangePassword_DecetionError_same"="新密码与旧密码不能相同!";
+"ChangePassword_DecetionError_noAgree"="两次输入的密码不一致!";
+"ChangePassword_DecetionError_success"="修改成功!";
+"ChangePassword_DecetionError_fail"="修改失败!";
+
+// addRemind
+"Addremind_fail"="添加失败";
+"Addremind_success"="添加成功";
+"editRemind_fail"="编辑成功";
+"editRemind_success"="编辑失败";
+
+//forget
+"forgetPassword_request_inexistence"="发送失败，账号不存在!";
+"forgetPassword_request_fail"="发送失败，请检查账号是否有误！";
+
+// error code
+"errorCode_2" = "服务内部运行错误";
+"errorCode_1011" = "账号已通过注册";
+"errorCode_1021" = "账号已通过注册";
+"errorCode_1031" = "无效的验证码或验证码超时";
+"errorCode_1041" = "登入账号与密码不相符";
+"errorCode_1051" = "该帐户不存在";
+"errorCode_1052" = "该账号未启用，或是被冻结";
+"errorCode_1061" = "无效的验证码或验证码超时";
+"errorCode_1071" = "原始密码错误";
+"errorCode_1101" = "该帐户不存在";
+"errorCode_1102" = "储存头像失败";
+"errorCode_1111" = "该帐户不存在";
+"errorCode_1112" = "档案错误";
+"errorCode_1121" = "添加JPUSH registionID 失败";
+"errorCode_1131" = "移除JPUSH registionID 失败";
+"errorCode_2011" = "首次绑定失败";
+"errorCode_2012" = "认证码不符";
+"errorCode_2013" = "该设备不存在";
+"errorCode_2014" = "该设备已与账号绑定";
+"errorCode_2021" = "解除绑定失败";
+"errorCode_2022" = "该账号与设备未绑定";
+"errorCode_2041" = "该账号与设备未绑定";
+"errorCode_2051" = "该账号与设备未绑定";
+"errorCode_2081" = "该账号与设备未绑定";
+"errorCode_2091" = "未输入正确原始绑定码";
+"errorCode_2092" = "绑定码更新失败";
+"errorCode_2101" = "该账号与设备未绑定";
+"errorCode_2102" = "该设备不存在";
+"errorCode_2103" = "认证码更新失败";
+"errorCode_2111" = "该账号与设备未绑定";
+"errorCode_2112" = "头像储存失败";
+"errorCode_2121" = "该账号与设备未绑定";
+"errorCode_2122" = "头像读取失败";
+"errorCode_6011" = "该账号不存在";
+"errorCode_6012" = "图像储存失败";
+"errorCode_2011" = "该设备为首次绑定，请修改绑定验证码已保护个人隐私";
+
+"KMVIPServer_IDCard_identify"  =   "识别身份证";
+"KMVIPServer_IDCard"  =   "身份证";
+"KMVIPServer_Name"  =   "姓名";
+"KMVIPServer_Sex"  =   "性别";
+"KMVIPServer_Birthday"  =   "生日";
+"KMVIPServer_Address"  =   "地址";
+"KMVIPServer_SIMIDErrorHint" = "SIM卡号、身份证正反面必须填写";
+"KMVIPServer_SIMTextErrorHint" = "SIM卡号填写错误";
+
+"KMDeviceManager_health_DBP"  =   "低压";
+"KMDeviceManager_health_SBP"  =   "高压";
+"KMCommon_alert_Content_null"  =   "内容不能为空！";
+
+"DeviceSetting_VC_alert_select"  = "手表未同意绑定!";
+//-----------------------新增-----------------------------------
+//-----------------------16-12-07新增-----------------------------------
+"KMClinicRemind_VC_Custom_number" = "自定义提醒不能多于10个";
+"DeviceSettingDetailBody_VC_height_description" = "身高";
+"DeviceSettingDetailBody_VC_Reference_steps" = "参考步距";
+
+"healthrecord_vc_measure_value" = "测量值";
+"healthrecord_vc_reference_value" = "参考值";
+"message_delete_VC" = "删除";
+"message_all_selected_VC" = "全选";
+
+"nav_message" = "消息";
+"real_name_authentication" = "自助实名认证";
+"simTextField_placeholder" = "请输入手表SIM卡卡号";
+"submit" = "提交";
+"Address" = "请填写详细住址";
+"SubmittedSuccessfully" = "提交成功!";
+"msgLabel" = "我们将在十个工作日内为您处理，有疑问可拨打客服热线 400 888 6158 - 1";
+"JKAlert" = "请填写完资料";
+"sim_not_exist" = "sim卡不属于健康云";
+"sim_real_name_authentication" = "SIM卡需实名认证";
+"SIM_card_does_not_exist" = "SIM卡不存在";
+"Authentication_failed" = "验证失败请重新输入";
+"Auth_Failed" = "验证失败!";
+//----------------push--alter-------------------
+"sos_urgent_title_key" = "紧急求救通知";
+"sos_urgent_alert_key" = "触发紧急求救通知";
+"sos_fall_title_key" = "跌倒通知";
+"sos_fall_alert_key" = "触发跌倒通知";
+"oxygent_title_key" = "血氧量测异常";
+"oxygent_alert_key" = "血氧量测异常";
+"oxygent_alert_low" = "血氧量测偏低";
+"oxygent_alert_serious_low" = "血氧量测严重偏低";
+"ecg_title_key" = "心率量测异常";
+"ecg_alert_high" = "心率量测偏高";
+"ecg_alert_low" = "心率量测偏低";
+"blood_pressure_title_key" = "血压量测异常";
+"blood_pressure_alert_key" = "血压量测异常";
+"glucose_title_key" = "血糖量测异常";
+"glucose_alert_key" = "血糖量测异常";
+"setting_fail_title_key" = "设定失败";
+"setting_unconnect_server" = "未与服务器连接";
+"setting_bind_fail_key" = "绑定失败";
+"setting_hr_fail_key" = "心率量测失败";
+"setting_discovery_fail_key" = "立即寻址失败";
+"electric_fence_title_key" = "电子围栏";
+"electric_fence_distance_key" = "离开电子围栏";
+"power_low_key" = "电量过低";
+"power_low_title_key" = "低电量通知";
+"power_off_key" = "关机";
+"power_off_title_key" = "关机通知";
+"discovery_address_complete_key" = "寻址完成";
+"discovery_address_key" = "立即寻址";
+"change_setting_title_key" = "变更设置";
+"change_setting_success_key" = "设置变更成功";
+"current_hr_title_key" = "实时心率";
+"current_hr_start_key" = "实时心率量测开始";
+"discovery_address_start_key" = "立即寻址开始";
+"bind_notification_title_key" = "绑定通知";
+"bind_accept_key" = "接受绑定";
+"bind_refuse_key" = "拒絕绑定";
+"ecg_alert_fall" = "手表脱落,未检测到心率";
+"leave_msg_title_key" = "留言通知";
+"leave_msg_key" = "你有新的留言";
+"record_msg_title_key" = "录音通知";
+"record_msg_key" = "你有新的录音";
+
+//引导页协议
+"LaunchVC_policy" = "policy_zh.html";
+"message_notification_open" = "去开启";
+"Location_VC_Message_send_failed" = "短信发送失败";
+"Location_VC_Message_send_successfully" = "短信发送成功";
+
+"Location_VC_message_Prompt_information" = "提示信息";
+"Location_VC_message_description" = "该设备不支持短信功能";
+"Location_VC_message_confirm" = "确定";
+
+"Device_VC_add_header_Photo" = "请选择头像";

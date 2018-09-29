@@ -1,0 +1,49 @@
+/* 
+  Localizable.strings
+  InstantCare
+
+  Created by KM on 16/9/28.
+  Copyright © 2016年 omg. All rights reserved.
+*/
+//----------- Local Key
+"sos_urgent_title_key" = "Emergency Notification";
+"sos_urgent_alert_key" = "Emergency Notification triggered by %@";
+"sos_fall_title_key" = "Fall Notification";
+"sos_fall_alert_key" = "Fall Notification triggered by %@";
+"oxygent_title_key" = "Abnormal blood oxygen level";
+"oxygent_alert_key" = "Abnormal blood oxygen level %@";
+"oxygent_alert_low" = "Low blood oxygen level %@";
+"oxygent_alert_serious_low" = "Extremely low blood oxygen level %@";
+"ecg_title_key" = "Abnormal Heart rate";
+"ecg_alert_high" = "High Heart rate measurement %@";
+"ecg_alert_low" = "Low Heart rate measurement %@";
+"blood_pressure_title_key" = "Abnormal Blood pressure level";
+"blood_pressure_alert_key" = "Abnormal Blood pressure level %@";
+"glucose_title_key" = "Abnormal Blood Glucose level";
+"glucose_alert_key" = "Abnormal Blood Glucose alert level %@";
+"setting_fail_title_key" = "Setting failed";
+"setting_unconnect_server" = "%@ not connected to the server";
+"setting_bind_fail_key" = "Bind failed";
+"setting_hr_fail_key" = "Heart rate measurement failure";
+"setting_discovery_fail_key" = "Locating failure";
+"electric_fence_title_key" = "Geo-fencing";
+"electric_fence_distance_key" = "%@ left the geo-fencing area";
+"power_low_key" = "%@ low battery";
+"power_low_title_key" = "Low Battery Notification";
+"power_off_key" = "%@ Shutdown";
+"power_off_title_key" = "Shutdown Notification";
+"discovery_address_complete_key" = "%@  Location Tracking successful";
+"discovery_address_key" = "Track location immediately";
+"change_setting_title_key" = "Edit Setting";
+"change_setting_success_key" = "%@ Setting changed successfully";
+"current_hr_title_key" = "Real-time Heart rate";
+"current_hr_start_key" = "%@ real-time heart rate measrement start";
+"discovery_address_start_key" = "%@ Location Tracking start";
+"bind_notification_title_key" = "Bind notification";
+"bind_accept_key" = "%@ Binding successful";
+"bind_refuse_key" = "%@ Binding failed";
+"ecg_alert_fall" = "%@ Watch not in place, unable to detech heart rate";
+"leave_msg_title_key" = "Message Notification";
+"leave_msg_key" = "You have a new message";
+"record_msg_title_key" = "Voice Message Notification";
+"record_msg_key" = "You have a new voice message";

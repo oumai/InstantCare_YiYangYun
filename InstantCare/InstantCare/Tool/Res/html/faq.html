@@ -1,0 +1,104 @@
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <style>
+        *{
+            margin:0;
+            padding:0;
+        }
+        #detail {
+            color: #929292;
+            text-indent:1cm;
+        }
+        #headtitle {
+            color: #FFFFFF;
+            background: #35C4A6;
+        }
+        h4{
+            color:#272636;
+            margin-bottom: 10px;
+        }
+        ul li{
+            list-style-type: none;
+            margin-bottom:16px;
+            padding:16px;
+        }
+    </style>
+    <script>
+        window.onload=function()
+        {
+            var aLi=document.getElementsByTagName('li');
+            for(var i=0;i<aLi.length;i++)
+            {
+                if(i%2==0)
+                {
+                    aLi[i].style.background=('#f7f7f7');
+                }
+                else
+                {
+                    aLi[i].style.background=('#fff');
+                }
+            }
+        }
+    </script>
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Starter Template for Bootstrap</title>
+</head>
+
+<body>
+
+<div class="container">
+    <ul>
+        <li>
+            <h4>为何在APP上设置"紧急号码"和"亲情号码"后，并没有上传或同步至智慧手表上？</h4>
+            <div id="detail">为求省电和节省封包费用，原始设定每整点时资料才会上传并于服务器同步，若您希望每次设定完成后立即更新，请设定完成后，将智慧手表主动关机，静置5分钟后再次开启，开启后先前所变更之号码可立即更新。</div>
+        </li>
+
+        <li>
+            <h4>为何在按下"紧急求救按键"，定位资料并没有出现在地图中？</h4>
+            <div id="detail">即时定位的信息传出后，需在信息确认传送成功后才会更新，会开启GPS,GSM 多基站定位，依据不同的定位方式，有不同的准确度显示。</div>
+        </li>
+
+        <li>
+            <h4>智慧手表每月的GPRS 数据传输封包使用量约为多少？</h4>
+            <div id="detail">正常待机，每月最大上网封包流量大约为 2-3M ，但仍依据实际使用情况及频率而定。</div>
+        </li>
+
+        <li>
+            <h4>紧急号码若设定一组以上，将于何种状态下执行轮拨？</h4>
+            <div id="detail">若设定一组以上的紧急号码，则在第一组号码拨通30秒无人接听的情况下，轮拨下一组号码，直至拨通或您主动挂断。</div>
+        </li>
+
+        <li>
+            <h4>按下 "紧急号码"和"亲情号码" 有何不同？</h4>
+            <div id="detail">按"紧急号码"将立即拨号，并做即时A-GPS定位，按下亲情号码，将立即拨号但并不支持即时定位功能。</div>
+        </li>
+
+        <li>
+            <h4>如何设定及配对智慧手表的蓝牙量测设备？</h4>
+            <div id="detail">在设置界面，通讯设置，点选蓝牙，激活蓝牙,在我的装置，选择要配对的量测设备，即可进行自动配对。</div>
+        </li>
+        
+        <li>
+            <h4>如何使用电子围栏</h4>
+            <div id="detail">打开APP设置项，选择设备管理，选定设备后进行编辑，点击硬件设置，打开定位项下方的电子围栏，拖动围栏半径以设置范围，同时开启下方的围栏开关，最后点击保存。</div>
+        </li>
+        
+        <li>
+            <h4>电子围栏的作用</h4>
+            <div id="detail">当设备配戴者离开所设置的范围 , 系统将通知监护人并发出报警。</div>
+        </li>
+        
+    </ul>
+
+</div><!-- /.container -->
+
+</body>
+</html>

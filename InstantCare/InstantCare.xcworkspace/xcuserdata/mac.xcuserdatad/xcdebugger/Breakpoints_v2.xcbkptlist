@@ -1,0 +1,532 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "InstantCare/Main/ViewController/Location/ViewController/KMLocationVC.m"
+            timestampString = "559050164.452666"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "1104"
+            endingLineNumber = "1104"
+            landmarkName = "-cellBtnDidClickWithCell:btnIndex:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "InstantCare/Tool/Extension/UIImageView+SDWebImage.m"
+            timestampString = "553159616.869725"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "32"
+            endingLineNumber = "32"
+            landmarkName = "-sdImageWithStringRUL:placeholderImage:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pods/SDWebImage/SDWebImage/UIView+WebCache.m"
+            timestampString = "553083410.210189"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "100"
+            endingLineNumber = "100"
+            landmarkName = "-sd_internalSetImageWithURL:placeholderImage:options:operationKey:setImageBlock:progress:completed:context:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pods/SDWebImage/SDWebImage/UIView+WebCache.m"
+            timestampString = "553083422.405292"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "72"
+            endingLineNumber = "72"
+            landmarkName = "-sd_internalSetImageWithURL:placeholderImage:options:operationKey:setImageBlock:progress:completed:context:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pods/SDWebImage/SDWebImage/UIView+WebCache.m"
+            timestampString = "553083445.344165"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "155"
+            endingLineNumber = "155"
+            landmarkName = "-sd_internalSetImageWithURL:placeholderImage:options:operationKey:setImageBlock:progress:completed:context:"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__126-[UIView(WebCache) sd_internalSetImageWithURL:placeholderImage:options:operationKey:setImageBlock:progress:completed:context:]_block_invoke.40"
+                  moduleName = "InstantCare"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mac/New_InstantCare/InstantCare/Pods/SDWebImage/SDWebImage/UIView+WebCache.m"
+                  timestampString = "559050164.755968"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "155"
+                  endingLineNumber = "155"
+                  offsetFromSymbolStart = "1568">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__126-[UIView(WebCache) sd_internalSetImageWithURL:placeholderImage:options:operationKey:setImageBlock:progress:completed:context:]_block_invoke.54"
+                  moduleName = "InstantCare"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mac/New_InstantCare/InstantCare/Pods/SDWebImage/SDWebImage/UIView+WebCache.m"
+                  timestampString = "559050164.757719"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "155"
+                  endingLineNumber = "155"
+                  offsetFromSymbolStart = "24">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__copy_helper_block_.57"
+                  moduleName = "InstantCare"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mac/New_InstantCare/InstantCare/Pods/SDWebImage/SDWebImage/UIView+WebCache.m"
+                  timestampString = "559050164.759392"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "155"
+                  endingLineNumber = "155"
+                  offsetFromSymbolStart = "24">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__destroy_helper_block_.58"
+                  moduleName = "InstantCare"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mac/New_InstantCare/InstantCare/Pods/SDWebImage/SDWebImage/UIView+WebCache.m"
+                  timestampString = "559050164.761097"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "155"
+                  endingLineNumber = "155"
+                  offsetFromSymbolStart = "20">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__126-[UIView(WebCache) sd_internalSetImageWithURL:placeholderImage:options:operationKey:setImageBlock:progress:completed:context:]_block_invoke.60"
+                  moduleName = "InstantCare"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mac/New_InstantCare/InstantCare/Pods/SDWebImage/SDWebImage/UIView+WebCache.m"
+                  timestampString = "559050164.762813"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "155"
+                  endingLineNumber = "155"
+                  offsetFromSymbolStart = "24">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__copy_helper_block_.61"
+                  moduleName = "InstantCare"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mac/New_InstantCare/InstantCare/Pods/SDWebImage/SDWebImage/UIView+WebCache.m"
+                  timestampString = "559050164.764488"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "155"
+                  endingLineNumber = "155"
+                  offsetFromSymbolStart = "24">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__destroy_helper_block_.62"
+                  moduleName = "InstantCare"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mac/New_InstantCare/InstantCare/Pods/SDWebImage/SDWebImage/UIView+WebCache.m"
+                  timestampString = "559050164.766117"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "155"
+                  endingLineNumber = "155"
+                  offsetFromSymbolStart = "20">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "InstantCare/LeftSlide/ViewController/DeviceSetting/ViewController/DeviceEdit/ViewController/DeviceSettingDetail/ViewController/DeviceSettingCheckTiem/ViewController/KMDeviceSettingCheckTiemVC.m"
+            timestampString = "553413230.810553"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "164"
+            endingLineNumber = "164"
+            landmarkName = "-saveUserOperation"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[KMDeviceSettingCheckTiemVC saveUserOperation]"
+                  moduleName = "InstantCare"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mac/New_InstantCare/InstantCare/InstantCare/LeftSlide/ViewController/DeviceSetting/ViewController/DeviceEdit/ViewController/DeviceSettingDetail/ViewController/DeviceSettingCheckTiem/ViewController/KMDeviceSettingCheckTiemVC.m"
+                  timestampString = "559050164.774619"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "164"
+                  endingLineNumber = "164"
+                  offsetFromSymbolStart = "424">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__destroy_helper_block_.148"
+                  moduleName = "InstantCare"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mac/New_InstantCare/InstantCare/InstantCare/LeftSlide/ViewController/DeviceSetting/ViewController/DeviceEdit/ViewController/DeviceSettingDetail/ViewController/DeviceSettingCheckTiem/ViewController/KMDeviceSettingCheckTiemVC.m"
+                  timestampString = "559050164.7763259"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "164"
+                  endingLineNumber = "164"
+                  offsetFromSymbolStart = "20">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "InstantCare/LeftSlide/ViewController/DeviceSetting/ViewController/DeviceEdit/ViewController/DeviceSettingDetail/ViewController/KMDeviceSettingDetailVC.m"
+            timestampString = "553413441.178944"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "214"
+            endingLineNumber = "214"
+            landmarkName = "-requestDeviceSetting"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[KMDeviceSettingDetailVC requestDeviceSetting]"
+                  moduleName = "InstantCare"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mac/New_InstantCare/InstantCare/InstantCare/LeftSlide/ViewController/DeviceSetting/ViewController/DeviceEdit/ViewController/DeviceSettingDetail/ViewController/KMDeviceSettingDetailVC.m"
+                  timestampString = "559050164.78067"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "214"
+                  endingLineNumber = "214"
+                  offsetFromSymbolStart = "292">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__destroy_helper_block_.169"
+                  moduleName = "InstantCare"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mac/New_InstantCare/InstantCare/InstantCare/LeftSlide/ViewController/DeviceSetting/ViewController/DeviceEdit/ViewController/DeviceSettingDetail/ViewController/KMDeviceSettingDetailVC.m"
+                  timestampString = "559050164.782329"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "214"
+                  endingLineNumber = "214"
+                  offsetFromSymbolStart = "20">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "InstantCare/LeftSlide/ViewController/DeviceSetting/ViewController/DeviceEdit/ViewController/DeviceSettingDetail/ViewController/KMDeviceSettingDetailVC.m"
+            timestampString = "553413471.7692569"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "268"
+            endingLineNumber = "268"
+            landmarkName = "-loadCheckTiemSetting"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[KMDeviceSettingDetailVC loadCheckTiemSetting]"
+                  moduleName = "InstantCare"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mac/New_InstantCare/InstantCare/InstantCare/LeftSlide/ViewController/DeviceSetting/ViewController/DeviceEdit/ViewController/DeviceSettingDetail/ViewController/KMDeviceSettingDetailVC.m"
+                  timestampString = "559019885.9420609"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "268"
+                  endingLineNumber = "268"
+                  offsetFromSymbolStart = "316">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__47-[KMDeviceSettingDetailVC loadCheckTiemSetting]_block_invoke"
+                  moduleName = "InstantCare"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mac/New_InstantCare/InstantCare/InstantCare/LeftSlide/ViewController/DeviceSetting/ViewController/DeviceEdit/ViewController/DeviceSettingDetail/ViewController/KMDeviceSettingDetailVC.m"
+                  timestampString = "559019885.944321"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "268"
+                  endingLineNumber = "268"
+                  offsetFromSymbolStart = "24">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__destroy_helper_block_.193"
+                  moduleName = "InstantCare"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mac/New_InstantCare/InstantCare/InstantCare/LeftSlide/ViewController/DeviceSetting/ViewController/DeviceEdit/ViewController/DeviceSettingDetail/ViewController/KMDeviceSettingDetailVC.m"
+                  timestampString = "559019885.9465311"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "268"
+                  endingLineNumber = "268"
+                  offsetFromSymbolStart = "20">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "InstantCare/LeftSlide/ViewController/DeviceSetting/ViewController/DeviceEdit/ViewController/AddNewDevice/ViewController/KMAddNewDeviceVC.m"
+            timestampString = "559049556.322892"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "425"
+            endingLineNumber = "425"
+            landmarkName = "-uploadUserHeader"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[KMAddNewDeviceVC uploadUserHeader]"
+                  moduleName = "InstantCare"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mac/New_InstantCare/InstantCare/InstantCare/LeftSlide/ViewController/DeviceSetting/ViewController/DeviceEdit/ViewController/AddNewDevice/ViewController/KMAddNewDeviceVC.m"
+                  timestampString = "559050164.787096"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "425"
+                  endingLineNumber = "425"
+                  offsetFromSymbolStart = "720">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__36-[KMAddNewDeviceVC uploadUserHeader]_block_invoke"
+                  moduleName = "InstantCare"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mac/New_InstantCare/InstantCare/InstantCare/LeftSlide/ViewController/DeviceSetting/ViewController/DeviceEdit/ViewController/AddNewDevice/ViewController/KMAddNewDeviceVC.m"
+                  timestampString = "559050164.788867"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "426"
+                  endingLineNumber = "426"
+                  offsetFromSymbolStart = "72">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__destroy_helper_block_.369"
+                  moduleName = "InstantCare"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mac/New_InstantCare/InstantCare/InstantCare/LeftSlide/ViewController/DeviceSetting/ViewController/DeviceEdit/ViewController/AddNewDevice/ViewController/KMAddNewDeviceVC.m"
+                  timestampString = "559050164.790445"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "425"
+                  endingLineNumber = "425"
+                  offsetFromSymbolStart = "16">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "InstantCare/LeftSlide/ViewController/DeviceSetting/ViewController/DeviceEdit/ViewController/AddNewDevice/ViewController/KMAddNewDeviceVC.m"
+            timestampString = "559049556.323662"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "427"
+            endingLineNumber = "427"
+            landmarkName = "-uploadUserHeader"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.ExceptionBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            scope = "0"
+            stopOnStyle = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "InstantCare/AppDelegate.m"
+            timestampString = "559050164.453281"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "208"
+            endingLineNumber = "208"
+            landmarkName = "-configJPushWithOption:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.ExceptionBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            scope = "0"
+            stopOnStyle = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "InstantCare/Main/ViewController/KMNew_MainVC.m"
+            timestampString = "559050164.453512"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "257"
+            endingLineNumber = "257"
+            landmarkName = "-kmReceiveRemoteNotification:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "InstantCare/Main/ViewController/KMNew_MainVC.m"
+            timestampString = "559050164.453727"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "245"
+            endingLineNumber = "245"
+            landmarkName = "-updateDeviceTokenToServer"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[KMNew_MainVC updateDeviceTokenToServer]"
+                  moduleName = "InstantCare"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mac/New_InstantCare/InstantCare/InstantCare/Main/ViewController/KMNew_MainVC.m"
+                  timestampString = "559050164.8040709"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "245"
+                  endingLineNumber = "245"
+                  offsetFromSymbolStart = "268">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__41-[KMNew_MainVC updateDeviceTokenToServer]_block_invoke"
+                  moduleName = "InstantCare"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mac/New_InstantCare/InstantCare/InstantCare/Main/ViewController/KMNew_MainVC.m"
+                  timestampString = "559050164.805748"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "246"
+                  endingLineNumber = "246"
+                  offsetFromSymbolStart = "72">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

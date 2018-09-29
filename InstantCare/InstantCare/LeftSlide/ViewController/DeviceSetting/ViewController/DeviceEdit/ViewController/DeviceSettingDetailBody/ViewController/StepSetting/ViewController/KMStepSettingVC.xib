@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="KMStepSettingVC">
+            <connections>
+                <outlet property="endLabel" destination="Xhw-Ud-MG4" id="K2N-sP-I33"/>
+                <outlet property="endPicker" destination="lbo-iV-X20" id="IAm-lc-cmg"/>
+                <outlet property="intervalLabel" destination="MNX-iO-iGW" id="LYf-nh-0fe"/>
+                <outlet property="minLabel" destination="C48-7m-0Kj" id="O50-19-BYU"/>
+                <outlet property="startLabel" destination="gwk-Ch-2Sg" id="ma6-Sq-OJw"/>
+                <outlet property="startPicker" destination="WTi-xM-Fm1" id="qcR-1B-4QJ"/>
+                <outlet property="timeInterval" destination="WaE-Sq-vDw" id="Blr-nr-jhp"/>
+                <outlet property="view" destination="r38-uT-R3u" id="XpS-D6-R0x"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="r38-uT-R3u">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qrW-9L-czn" userLabel="上背景">
+                    <rect key="frame" x="0.0" y="64" width="600" height="80"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="时间间隔" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MNX-iO-iGW" userLabel="标题">
+                            <rect key="frame" x="20" y="30" width="68" height="21"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="y4D-Dq-5iZ" userLabel="line">
+                            <rect key="frame" x="270" y="49" width="60" height="2"/>
+                            <color key="backgroundColor" red="0.88235294119999996" green="0.8862745098" blue="0.8862745098" alpha="1" colorSpace="calibratedRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="2" id="So8-ar-WOy"/>
+                                <constraint firstAttribute="width" constant="60" id="rYV-fn-5ZM"/>
+                            </constraints>
+                        </view>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="分钟" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="C48-7m-0Kj">
+                            <rect key="frame" x="546" y="30" width="34" height="21"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="WaE-Sq-vDw" userLabel="时间间隔">
+                            <rect key="frame" x="270" y="24" width="60" height="25"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="60" id="4Nk-6B-81D"/>
+                                <constraint firstAttribute="height" constant="25" id="s7b-bK-1uN"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                            <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                        </textField>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstItem="y4D-Dq-5iZ" firstAttribute="centerX" secondItem="qrW-9L-czn" secondAttribute="centerX" id="3YS-hr-CrD"/>
+                        <constraint firstItem="MNX-iO-iGW" firstAttribute="centerY" secondItem="qrW-9L-czn" secondAttribute="centerY" id="6RF-EC-mso"/>
+                        <constraint firstItem="y4D-Dq-5iZ" firstAttribute="bottom" secondItem="MNX-iO-iGW" secondAttribute="bottom" id="8sX-2a-2iT"/>
+                        <constraint firstAttribute="height" constant="80" id="GkI-VV-EMm"/>
+                        <constraint firstAttribute="trailing" secondItem="C48-7m-0Kj" secondAttribute="trailing" constant="20" id="HAC-5K-T63"/>
+                        <constraint firstItem="WaE-Sq-vDw" firstAttribute="bottom" secondItem="y4D-Dq-5iZ" secondAttribute="bottom" constant="-2" id="TVh-OX-neN"/>
+                        <constraint firstItem="WaE-Sq-vDw" firstAttribute="centerX" secondItem="qrW-9L-czn" secondAttribute="centerX" id="Vch-XB-IQe"/>
+                        <constraint firstItem="y4D-Dq-5iZ" firstAttribute="leading" secondItem="MNX-iO-iGW" secondAttribute="trailing" constant="30" id="Y0E-id-U0d"/>
+                        <constraint firstItem="C48-7m-0Kj" firstAttribute="centerY" secondItem="qrW-9L-czn" secondAttribute="centerY" id="YVK-lt-7jz"/>
+                        <constraint firstItem="MNX-iO-iGW" firstAttribute="leading" secondItem="qrW-9L-czn" secondAttribute="leading" constant="20" id="cvF-yS-j1M"/>
+                        <constraint firstItem="C48-7m-0Kj" firstAttribute="leading" secondItem="y4D-Dq-5iZ" secondAttribute="trailing" constant="30" id="g3Q-n7-xCf"/>
+                        <constraint firstItem="y4D-Dq-5iZ" firstAttribute="centerY" secondItem="qrW-9L-czn" secondAttribute="centerY" constant="10" id="mFb-Aw-wsR"/>
+                    </constraints>
+                    <variation key="default">
+                        <mask key="constraints">
+                            <exclude reference="Y0E-id-U0d"/>
+                            <exclude reference="mFb-Aw-wsR"/>
+                            <exclude reference="g3Q-n7-xCf"/>
+                        </mask>
+                    </variation>
+                    <connections>
+                        <outletCollection property="gestureRecognizers" destination="Hb9-JW-Uqb" appends="YES" id="r2p-o3-jrm"/>
+                        <outletCollection property="gestureRecognizers" destination="Hb9-JW-Uqb" appends="YES" id="NMq-q7-Mw3"/>
+                    </connections>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lZK-Mn-Dkz" userLabel="开始时间背景">
+                    <rect key="frame" x="0.0" y="179" width="600" height="120"/>
+                    <subviews>
+                        <datePicker contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="time" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="WTi-xM-Fm1">
+                            <rect key="frame" x="210" y="0.0" width="180" height="120"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="120" id="0BR-81-XxV"/>
+                                <constraint firstAttribute="width" constant="180" id="Fnt-T8-ECt"/>
+                            </constraints>
+                            <date key="date" timeIntervalSinceReferenceDate="492594961.00942099">
+                                <!--2016-08-11 07:56:01 +0000-->
+                            </date>
+                            <connections>
+                                <action selector="startTime:" destination="-1" eventType="valueChanged" id="h9V-Gk-yh2"/>
+                            </connections>
+                        </datePicker>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstItem="WTi-xM-Fm1" firstAttribute="centerY" secondItem="lZK-Mn-Dkz" secondAttribute="centerY" id="eSZ-ui-bb7"/>
+                        <constraint firstItem="WTi-xM-Fm1" firstAttribute="centerX" secondItem="lZK-Mn-Dkz" secondAttribute="centerX" id="kwW-mk-I55"/>
+                        <constraint firstAttribute="height" constant="120" id="uGn-7v-eWy"/>
+                    </constraints>
+                </view>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="开始时间" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gwk-Ch-2Sg">
+                    <rect key="frame" x="20" y="144" width="68" height="35"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="35" id="X3q-Th-Pna"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="结束时间" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xhw-Ud-MG4">
+                    <rect key="frame" x="20" y="299" width="68" height="35"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="35" id="ta0-32-hRJ"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hUy-Vk-rZA" userLabel="结束时间背景">
+                    <rect key="frame" x="0.0" y="334" width="600" height="120"/>
+                    <subviews>
+                        <datePicker contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="time" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="lbo-iV-X20">
+                            <rect key="frame" x="210" y="0.0" width="180" height="120"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="180" id="40s-Cp-WN3"/>
+                                <constraint firstAttribute="height" constant="120" id="GmX-cZ-Tab"/>
+                            </constraints>
+                            <date key="date" timeIntervalSinceReferenceDate="492594987.77124399">
+                                <!--2016-08-11 07:56:27 +0000-->
+                            </date>
+                            <connections>
+                                <action selector="endTime:" destination="-1" eventType="valueChanged" id="cMC-Pg-M8a"/>
+                            </connections>
+                        </datePicker>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="120" id="17e-Dk-4zQ"/>
+                        <constraint firstItem="lbo-iV-X20" firstAttribute="centerY" secondItem="hUy-Vk-rZA" secondAttribute="centerY" id="I0e-b7-ei5"/>
+                        <constraint firstItem="lbo-iV-X20" firstAttribute="centerX" secondItem="hUy-Vk-rZA" secondAttribute="centerX" id="Uqw-p9-rLF"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="0.96078431369999995" green="0.96470588239999999" blue="0.96862745100000003" alpha="1" colorSpace="calibratedRGB"/>
+            <gestureRecognizers/>
+            <constraints>
+                <constraint firstItem="Xhw-Ud-MG4" firstAttribute="leading" secondItem="r38-uT-R3u" secondAttribute="leading" constant="20" id="ArW-2w-hRJ"/>
+                <constraint firstItem="gwk-Ch-2Sg" firstAttribute="top" secondItem="qrW-9L-czn" secondAttribute="bottom" id="GIm-Fk-RgD"/>
+                <constraint firstItem="hUy-Vk-rZA" firstAttribute="leading" secondItem="r38-uT-R3u" secondAttribute="leading" id="Lrs-KR-HuF"/>
+                <constraint firstItem="hUy-Vk-rZA" firstAttribute="top" secondItem="Xhw-Ud-MG4" secondAttribute="bottom" id="Paw-2J-IPd"/>
+                <constraint firstAttribute="trailing" secondItem="lZK-Mn-Dkz" secondAttribute="trailing" id="YD0-ht-WuZ"/>
+                <constraint firstItem="Xhw-Ud-MG4" firstAttribute="top" secondItem="lZK-Mn-Dkz" secondAttribute="bottom" id="kbK-zn-uCF"/>
+                <constraint firstItem="gwk-Ch-2Sg" firstAttribute="leading" secondItem="r38-uT-R3u" secondAttribute="leading" constant="20" id="lcH-AV-E9H"/>
+                <constraint firstAttribute="trailing" secondItem="hUy-Vk-rZA" secondAttribute="trailing" id="oia-Ui-c5P"/>
+                <constraint firstItem="qrW-9L-czn" firstAttribute="top" secondItem="r38-uT-R3u" secondAttribute="top" constant="64" id="r91-Mm-F97"/>
+                <constraint firstItem="lZK-Mn-Dkz" firstAttribute="leading" secondItem="r38-uT-R3u" secondAttribute="leading" id="rjU-Yt-Byz"/>
+                <constraint firstAttribute="trailing" secondItem="qrW-9L-czn" secondAttribute="trailing" id="rog-cN-mvP"/>
+                <constraint firstItem="qrW-9L-czn" firstAttribute="leading" secondItem="r38-uT-R3u" secondAttribute="leading" id="uiT-zq-XmK"/>
+                <constraint firstItem="lZK-Mn-Dkz" firstAttribute="top" secondItem="gwk-Ch-2Sg" secondAttribute="bottom" id="ySx-C1-E6k"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+        </view>
+        <tapGestureRecognizer id="Hb9-JW-Uqb" userLabel="触发第一响应者">
+            <connections>
+                <action selector="editTimeinterval:" destination="-1" id="mYy-0z-zA1"/>
+            </connections>
+        </tapGestureRecognizer>
+    </objects>
+</document>

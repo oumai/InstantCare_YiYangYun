@@ -1,0 +1,95 @@
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+    <head>
+        <meta charset="utf-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+                <meta name="viewport" content="width=device-width, initial-scale=1">
+                    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+                    <style>
+                        *{
+                            margin:0;
+                            padding:0;
+                        }
+                    #detail {
+                        color: #929292;
+                        text-indent:1cm;
+                    }
+                    #headtitle {
+                        color: #FFFFFF;
+                        background: #35C4A6;
+                    }
+                    h4{
+                        color:#272636;
+                        margin-bottom: 10px;
+                    }
+                    ul li{
+                        list-style-type: none;
+                        margin-bottom:16px;
+                        padding:16px;
+                    }
+                    </style>
+                    <script>
+                        window.onload=function()
+                        {
+                            var aLi=document.getElementsByTagName('li');
+                            for(var i=0;i<aLi.length;i++)
+                            {
+                                if(i%2==0)
+                                {
+                                    aLi[i].style.background=('#f7f7f7');
+                                }
+                                else
+                                {
+                                    aLi[i].style.background=('#fff');
+                                }
+                            }
+                        }
+                    </script>
+                    <meta name="description" content="">
+                        <meta name="author" content="">
+                            
+                            <title>Starter Template for Bootstrap</title>
+    </head>
+    
+    <body>
+        
+        <div class="container">
+            <ul>
+                <li>
+                    <h4>為何在APP上設定"緊急號碼"和"親情號碼"後，並沒有上傳或同步至智慧手錶上？</h4>
+                    <div id="detail">為求省電和節省封包費用，原始設定每整點時資料才會上傳並於服務器同步，若您希望每次設定完成後立即更新，請設定完成後，將智慧手錶主動關機，靜置5分鐘後再次開啟，開啟後先前所變更之號碼可立即更新。</div>
+                </li>
+                <li>
+                    <h4>為何在按下"緊急求救按鍵"，定位資料並沒有出現在地圖中？</h4>
+                    <div id="detail">即時定位的資訊傳出後，需在資訊確認傳送成功後才會更新，會開啟GPS，GSM多基站定位，依據不同的定位管道，有不同的準確度顯示。</div>
+                </li>
+                <li>
+                    <h4>智慧手錶每月的GPRS資料傳輸封包使用量約為多少？</h4>
+                    <div id="detail">正常待機，每月最大上網封包流量大約為2-3M，但仍依據實際使用情况及頻率而定。</div>
+                </li>
+                <li>
+                    <h4>緊急號碼若設定一組以上，將於何種狀態下執行輪撥？</h4>
+                    <div id="detail">若設定一組以上的緊急號碼，則在第一組號碼撥通30秒無人接聽的情况下，輪撥下一組號碼，直至撥通或您主動掛斷。</div>
+                </li>
+                <li>
+                    <h4>按下"緊急號碼"和"親情號碼"有何不同？</h4>
+                    <div id="detail">按"緊急號碼"將立即撥號，並做即時A-GPS定位，按下親情號碼，將立即撥號但並不支持即時定位功能。</div>
+                </li>
+                <li>
+                    <h4>如何設定及配對智慧手錶的藍牙量測設備？</h4>
+                    <div id="detail">在設定介面，通訊設定，點選藍牙，啟動藍牙，在我的裝置，選擇要配對的量測設備，即可進行自動配對。</div>
+                </li>
+                <li>
+                    <h4>如何使用電子圍欄</h4>
+                    <div id="detail">打開APP設置項,選擇設備管理,選定設備后進行編輯,點擊硬件設置,打開定位項下方的電子圍欄,拖動圍欄半徑以設置範圍,同時開啟下方的圍欄開關,最後點擊保存.</div>
+                </li>
+                <li>
+                    <h4>電子圍欄的作用</h4>
+                    <div id="detail">當設備佩戴者離開所設置的範圍,系統將通知監護人并發出報警.</div>
+                </li>
+            </ul>
+        </div><!-- /.container -->
+        
+    </body>
+</html>

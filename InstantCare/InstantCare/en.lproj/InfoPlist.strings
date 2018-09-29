@@ -1,0 +1,16 @@
+/* 
+  InfoPlist.strings
+  InstantCare
+
+  Created by bruce zhu on 16/8/18.
+  Copyright © 2016年 omg. All rights reserved.
+*/
+
+"CFBundleDisplayName"  = "Healthcare";
+
+"NSLocationUsageDescription" = "Access Location";
+"NSLocationAlwaysUsageDescription" = "Access Location Always";
+"NSLocationWhenInUseUsageDescription" = "Access Location In Use";
+"NSMicrophoneUsageDescription"="Access Microphone";
+"NSPhotoLibraryUsageDescription" = "Access Photo Library";
+"NSCameraUsageDescription" = "Access Camera";

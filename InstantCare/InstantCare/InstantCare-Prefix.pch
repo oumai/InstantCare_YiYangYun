@@ -1,0 +1,144 @@
+//
+//  InstantCare-Prefix.h
+//  InstantCare
+//
+//  Created by Jasonh on 16/12/20.
+//  Copyright © 2016年 kangmei. All rights reserved.
+//
+
+#ifndef InstantCare_Prefix_h
+#define InstantCare_Prefix_h
+
+#ifdef __OBJC__
+
+#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
+#import "Masonry.h"
+#import "IQKeyboardManager.h"
+#import "SVProgressHUD.h"
+#import "KMMemberManager.h"
+
+#endif
+
+// 马来版本定义   
+//#define kApplicationMLVersion
+#define IS_IPHONE (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPhone)
+#define IS_IPad   (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad)
+
+#define IS_IPHONE_4_OR_LESS (IS_IPHONE && SCREEN_HEIGHT < 568.0)
+#define IS_IPHONE_5 (IS_IPHONE && SCREEN_HEIGHT == 568.0)
+#define IS_IPHONE_6 (IS_IPHONE && SCREEN_HEIGHT == 667.0)
+#define IS_IPHONE_6P (IS_IPHONE && SCREEN_HEIGHT == 736.0)
+#define IS_IPHONE_X (IS_IPHONE && SCREEN_HEIGHT == 812.0)
+
+
+// APP在iTunes上面的ID
+#ifdef kApplicationMLVersion
+#define KM_APPID        @"1062161839"
+#else
+#define KM_APPID        @"1044990892"
+#endif
+
+// 服务器端地址
+// 正式服务器地址：watch.medquotient.com:8880
+// 测试服务器地址：120.25.225.5:8090
+// 模拟服务器地址：101.201.39.193:8090
+// 马来服务器地址：info.mhealth-management.com:8080
+//www.ztyshj.kmhealthcloud.com:8095
+#if defined(kApplicationMLVersion)
+//#define kServerAddress          @"120.25.225.5:8090"
+//#define kServerAddress            @"hc010tn-web.chinanorth.cloudapp.chinacloudapi.cn:8080"
+#else
+//#define kServerAddress          @"watch.medquotient.com:8880"
+//#define kServerAddress            @"hcp06tn-sfcluster.chinanorth.cloudapp.chinacloudapi.cn:8080"//Azure测试环境
+#define kServerAddress            @"hc010tn-web.chinanorth.cloudapp.chinacloudapi.cn:8080"  //测试环境
+//#define kServerAddress            @"hc010pe-smartmodem.chinaeast.cloudapp.chinacloudapi.cn:8880"//生产环境
+//#define kServerAddress            @"10.2.20.243:8081" //朱志斌
+#endif /* kApplicationMLVersion */
+
+// JPush Key
+// 测试: d8d7c9e7828f1baf6b02f4ba  ID: com.kangmei.instantcaretest
+// 正式: 1e11ac3b6a5eff1a5b2fb84f
+//马来的bundleID:com.ml-cn.mhwatch
+
+#if defined(kApplicationMLVersion)
+#define kJPushAPPKEY            @"0da3efddbeaf869134a61fb5"
+#else
+//#define kJPushAPPKEY            @"9b961743ae3cad05cafe6b42" //测试推送证书
+#define kJPushAPPKEY            @"1e11ac3b6a5eff1a5b2fb84f"  //正式推送证书
+#endif /* kApplicationMLVersion */
+
+
+#define APP_LAN_TABLE   @"LocalLanguage"
+
+#define SCREEN_WIDTH    [UIScreen mainScreen].bounds.size.width
+#define SCREEN_HEIGHT   [UIScreen mainScreen].bounds.size.height
+
+#define WS(weakSelf)  __weak __typeof(&*self)weakSelf = self;
+
+
+// 测试健康档案图片地址：120.25.225.5:8060
+// 正式健康档案图片地址：120.25.84.114:8060
+#define kImageTestAddress       @"120.25.225.5:8060"
+
+//// UMeng统计key值
+#define kUMengAppKey            @"58356f24f5ade44672000b9d"
+
+// 身份认证Key
+// 03e0c27a942f85dbacc0321e786075fc
+// fd7a244fac94e40695c8c65d97609c58
+#define kIDKey                  @"03e0c27a942f85dbacc0321e786075fc"
+
+#define kNetReqSuccess      0
+#define kNetReqFail         1
+
+#define kNetReqSuccessStr   NSLocalizedStringFromTable(@"Common_network_request_OK", APP_LAN_TABLE, nil)
+#define kNetReqFailStr      NSLocalizedStringFromTable(@"Common_network_request_fail", APP_LAN_TABLE, nil)
+#define kNetReqNowStr       NSLocalizedStringFromTable(@"Common_network_request_now", APP_LAN_TABLE, nil)
+#define kNetError           NSLocalizedStringFromTable(@"Common_network_net_error", APP_LAN_TABLE, nil)
+
+
+#define kShowNetFailWithModel(model) [SVProgressHUD showErrorWithStatus:model.msg.length > 0 ? model.msg : kNetReqFailStr];
+
+#define kLoadStringWithKey(key)     NSLocalizedStringFromTable(key, APP_LAN_TABLE, nil)
+
+#define kNetReqFailWithCode(code) [KMMemberManager showErrorWithCode:code]
+
+#define kUserInfor(key)     [SVProgressHUD showInfoWithStatus:kLoadStringWithKey(key)]
+#define kUserError(key)     [SVProgressHUD showErrorWithStatus:kLoadStringWithKey(key)]
+#define kUserSuccess(key)   [SVProgressHUD showSuccessWithStatus:kLoadStringWithKey(key)]
+
+#define RGB(r,g,b)          [UIColor colorWithRed:r/255.0 green:g/255.0 blue:b/255.0 alpha:1]
+#define RGBA(r,g,b,a)       [UIColor colorWithRed:r/255.0 green:g/255.0 blue:b/255.0 alpha:a]
+
+// Color
+// 主色-黄色
+#define kMainColor          RGB(0xf3, 0x84, 0x17)
+// 辅色-橘黄
+#define kOrangeColor        RGB(0xf7, 0x51, 0x08)
+// 对话框蓝色
+#define kBuleColor          RGB(0x3f, 0xcd, 0xb5)
+
+// 大红色 f36060
+#define kRedColor           RGB(0xf3, 0x60, 0x60)
+
+// 灰色-侧滑背景，标题，重要内容
+#define kGrayColor          RGB(0x27, 0x26, 0x36)
+// 正文
+#define kGrayContextColor   RGB(0xa3, 0xa3, 0xa3)
+// 提示文字
+#define kGrayTipColor       RGB(0x9a, 0x9a, 0x9a)
+// 背景
+#define kGrayBackColor      RGB(0xea, 0xea, 0xea)
+
+// 健康文档数据显示高度
+#define kMedicalHeight 40
+
+#ifdef DEBUG
+#define DMLog(...) NSLog(__VA_ARGS__)
+#else
+#define DMLog(...) do { } while (0)
+#endif
+
+
+#endif /* InstantCare_Prefix_h */

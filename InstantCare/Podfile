@@ -1,0 +1,22 @@
+
+ platform :ios, ‘8.0’
+
+target 'InstantCare' do
+pod 'IQKeyboardManager'
+pod 'MJExtension'
+pod 'AFNetworking', '~> 3.0'
+pod 'Masonry’
+pod 'SDWebImage'
+pod 'MBProgressHUD'
+pod 'SVProgressHUD'
+pod 'LBXScan', '~> 1.1.1'
+pod 'JPush'
+pod 'iCarousel'
+pod 'KxMenu'
+pod 'ECSlidingViewController'
+pod 'libextobjc/EXTScope'
+pod 'UMengAnalytics-NO-IDFA'
+pod 'NJKWebViewProgress'
+pod 'MJRefresh'
+#pod 'FDFullscreenPopGesture', '1.1'
+end

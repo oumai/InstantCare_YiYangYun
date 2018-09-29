@@ -1,0 +1,49 @@
+/*
+  Localizable.strings
+  InstantCare
+
+  Created by KM on 16/9/28.
+  Copyright © 2016年 omg. All rights reserved.
+*/
+//----------- Local Key
+"sos_urgent_title_key" = "紧急求救通知";
+"sos_urgent_alert_key" = "紧急求救通知由 %@ 触发";
+"sos_fall_title_key" = "跌倒通知";
+"sos_fall_alert_key" = "跌倒通知 由 %@ 触发";
+"oxygent_title_key" = "血氧量测异常";
+"oxygent_alert_key" = "%@ 血氧量测异常";
+"oxygent_alert_low" = "%@ 血氧量测偏低";
+"oxygent_alert_serious_low" = "%@ 血氧量测严重偏低";
+"ecg_title_key" = "心率量测异常";
+"ecg_alert_high" = "%@ 心率量测偏高";
+"ecg_alert_low" = "%@ 心率量测偏低";
+"blood_pressure_title_key" = "血压量测异常";
+"blood_pressure_alert_key" = "%@ 血压量测异常";
+"glucose_title_key" = "血糖量测异常";
+"glucose_alert_key" = "%@ 血糖量测异常";
+"setting_fail_title_key" = "设定失败";
+"setting_unconnect_server" = "%@ 未与服务器连接";
+"setting_bind_fail_key" = "绑定失败";
+"setting_hr_fail_key" = "心率量测失败";
+"setting_discovery_fail_key" = "立即寻址失败";
+"electric_fence_title_key" = "电子围栏";
+"electric_fence_distance_key" = "%@ 离开电子围栏";
+"power_low_key" = "%@ 电量过低";
+"power_low_title_key" = "低电量通知";
+"power_off_key" = "%@ 关机";
+"power_off_title_key" = "关机通知";
+"discovery_address_complete_key" = "%@ 寻址完成";
+"discovery_address_key" = "立即寻址";
+"change_setting_title_key" = "变更设置";
+"change_setting_success_key" = "%@ 设置变更成功";
+"current_hr_title_key" = "实时心率";
+"current_hr_start_key" = "%@ 实时心率量测开始";
+"discovery_address_start_key" = "%@ 立即寻址开始";
+"bind_notification_title_key" = "绑定通知";
+"bind_accept_key" = "%@ 接受绑定";
+"bind_refuse_key" = "%@ 拒绝绑定";
+"ecg_alert_fall" = "%@ 手表脱落,未检测到心率";
+"leave_msg_title_key" = "留言通知";
+"leave_msg_key" = "你有新的留言";
+"record_msg_title_key" = "录音通知";
+"record_msg_key" = "你有新的录音";

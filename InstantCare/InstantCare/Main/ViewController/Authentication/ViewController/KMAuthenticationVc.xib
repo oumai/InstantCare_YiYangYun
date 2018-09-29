@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="KMAuthenticationVc">
+            <connections>
+                <outlet property="bgView" destination="267-6w-40c" id="NB6-O8-bwt"/>
+                <outlet property="bgViewTopConstraints" destination="8mO-f1-qqc" id="H9S-qK-FvJ"/>
+                <outlet property="comitBtn" destination="zCc-Ue-jZn" id="yzU-Kx-kYA"/>
+                <outlet property="leftBtn" destination="Vh5-7z-2c6" id="lsj-Kr-Iz0"/>
+                <outlet property="rightBtn" destination="uXh-ol-nPO" id="ghQ-FN-mIq"/>
+                <outlet property="simTextField" destination="WQ9-zy-9Ar" id="NSr-rj-fzS"/>
+                <outlet property="simTextView" destination="Kh0-Fp-zWg" id="rfA-K7-ehn"/>
+                <outlet property="tableView" destination="FmX-oS-Dic" id="oHk-mu-fIc"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="267-6w-40c" userLabel="背景视图">
+                    <rect key="frame" x="0.0" y="63" width="375" height="524"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rOz-Uy-oWv" userLabel="btnView">
+                            <rect key="frame" x="0.0" y="65" width="375" height="120"/>
+                            <subviews>
+                                <button opaque="NO" tag="100" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vh5-7z-2c6" userLabel="liftBtn" customClass="KMCustomButton">
+                                    <rect key="frame" x="20" y="10" width="152.5" height="100"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                    <state key="normal" title="身份证正面" image="member_button_upload_icon" backgroundImage="member_button_upload_bg">
+                                        <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="btnClick:" destination="-1" eventType="touchUpInside" id="TB5-lu-mao"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" tag="101" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uXh-ol-nPO" userLabel="rightBtn" customClass="KMCustomButton">
+                                    <rect key="frame" x="202.5" y="10" width="152.5" height="100"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                    <state key="normal" title="身份证反面" image="member_button_upload_icon" backgroundImage="member_button_upload_bg">
+                                        <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="btnRightClick:" destination="-1" eventType="touchUpInside" id="CJN-DB-go4"/>
+                                    </connections>
+                                </button>
+                            </subviews>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <constraints>
+                                <constraint firstAttribute="bottom" secondItem="uXh-ol-nPO" secondAttribute="bottom" constant="10" id="8vr-DL-f7G"/>
+                                <constraint firstItem="Vh5-7z-2c6" firstAttribute="top" secondItem="rOz-Uy-oWv" secondAttribute="top" constant="10" id="FWN-Ka-1wz"/>
+                                <constraint firstItem="Vh5-7z-2c6" firstAttribute="leading" secondItem="rOz-Uy-oWv" secondAttribute="leading" constant="20" id="K7h-ky-Fsl"/>
+                                <constraint firstItem="uXh-ol-nPO" firstAttribute="top" secondItem="rOz-Uy-oWv" secondAttribute="top" constant="10" id="LZy-ej-xSS"/>
+                                <constraint firstAttribute="bottom" secondItem="Vh5-7z-2c6" secondAttribute="bottom" constant="10" id="TZJ-t1-zml"/>
+                                <constraint firstItem="uXh-ol-nPO" firstAttribute="leading" secondItem="Vh5-7z-2c6" secondAttribute="trailing" constant="30" id="W7g-Jv-IGx"/>
+                                <constraint firstItem="uXh-ol-nPO" firstAttribute="width" secondItem="Vh5-7z-2c6" secondAttribute="width" id="XQY-S0-cHP"/>
+                                <constraint firstAttribute="height" constant="120" id="rxk-kn-wbC"/>
+                                <constraint firstAttribute="trailing" secondItem="uXh-ol-nPO" secondAttribute="trailing" constant="20" id="yKi-ZA-Z27"/>
+                            </constraints>
+                        </view>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="REB-Po-s3i" userLabel="Sim背景View">
+                            <rect key="frame" x="0.0" y="0.0" width="375" height="50"/>
+                            <subviews>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Kh0-Fp-zWg" userLabel="手表SIM卡号视图">
+                                    <rect key="frame" x="20" y="10" width="335" height="30"/>
+                                    <subviews>
+                                        <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="WQ9-zy-9Ar" customClass="KMSimTextField">
+                                            <rect key="frame" x="0.0" y="0.0" width="335" height="30"/>
+                                            <nil key="textColor"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                            <textInputTraits key="textInputTraits" keyboardType="phonePad"/>
+                                        </textField>
+                                    </subviews>
+                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <constraints>
+                                        <constraint firstAttribute="bottom" secondItem="WQ9-zy-9Ar" secondAttribute="bottom" id="Sxl-Zh-Kg4"/>
+                                        <constraint firstAttribute="trailing" secondItem="WQ9-zy-9Ar" secondAttribute="trailing" id="Uv1-Rg-Ip5"/>
+                                        <constraint firstItem="WQ9-zy-9Ar" firstAttribute="top" secondItem="Kh0-Fp-zWg" secondAttribute="top" id="wGS-dX-9OW"/>
+                                        <constraint firstItem="WQ9-zy-9Ar" firstAttribute="leading" secondItem="Kh0-Fp-zWg" secondAttribute="leading" id="yis-gC-dxP"/>
+                                    </constraints>
+                                </view>
+                            </subviews>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <constraints>
+                                <constraint firstAttribute="bottom" secondItem="Kh0-Fp-zWg" secondAttribute="bottom" constant="10" id="1pZ-gQ-bTz"/>
+                                <constraint firstAttribute="trailing" secondItem="Kh0-Fp-zWg" secondAttribute="trailing" constant="20" id="2n8-uW-WIL"/>
+                                <constraint firstItem="Kh0-Fp-zWg" firstAttribute="leading" secondItem="REB-Po-s3i" secondAttribute="leading" constant="20" id="2q2-3O-PuU"/>
+                                <constraint firstItem="Kh0-Fp-zWg" firstAttribute="top" secondItem="REB-Po-s3i" secondAttribute="top" constant="10" id="4ZR-lf-2Ae"/>
+                                <constraint firstAttribute="height" constant="50" id="Ign-EL-KAG"/>
+                            </constraints>
+                        </view>
+                        <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="FmX-oS-Dic">
+                            <rect key="frame" x="0.0" y="200" width="375" height="324"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        </tableView>
+                    </subviews>
+                    <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstItem="rOz-Uy-oWv" firstAttribute="leading" secondItem="267-6w-40c" secondAttribute="leading" id="0bs-aW-A7h"/>
+                        <constraint firstItem="REB-Po-s3i" firstAttribute="leading" secondItem="267-6w-40c" secondAttribute="leading" id="85w-i5-Nbq"/>
+                        <constraint firstItem="FmX-oS-Dic" firstAttribute="leading" secondItem="267-6w-40c" secondAttribute="leading" id="FYb-JA-okY"/>
+                        <constraint firstAttribute="trailing" secondItem="REB-Po-s3i" secondAttribute="trailing" id="HVz-vo-GXF"/>
+                        <constraint firstAttribute="trailing" secondItem="rOz-Uy-oWv" secondAttribute="trailing" id="Jgc-zN-pBu"/>
+                        <constraint firstItem="rOz-Uy-oWv" firstAttribute="top" secondItem="REB-Po-s3i" secondAttribute="bottom" constant="15" id="MDG-Sl-BPg"/>
+                        <constraint firstItem="FmX-oS-Dic" firstAttribute="top" secondItem="rOz-Uy-oWv" secondAttribute="bottom" constant="15" id="n4b-a5-bcv"/>
+                        <constraint firstItem="REB-Po-s3i" firstAttribute="top" secondItem="267-6w-40c" secondAttribute="top" id="nME-nY-Kns"/>
+                        <constraint firstAttribute="bottom" secondItem="FmX-oS-Dic" secondAttribute="bottom" id="z33-XW-mVB"/>
+                        <constraint firstAttribute="trailing" secondItem="FmX-oS-Dic" secondAttribute="trailing" id="zgU-YY-uvk"/>
+                    </constraints>
+                </view>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zCc-Ue-jZn" userLabel="提交">
+                    <rect key="frame" x="20" y="607" width="335" height="40"/>
+                    <color key="backgroundColor" red="1" green="0.57898379822679213" blue="0.30680739687638048" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="DUY-ud-IlR"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <state key="normal" title="Button">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="submit:" destination="-1" eventType="touchUpInside" id="C09-Vr-4Nw"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" cocoaTouchSystemColor="lightTextColor"/>
+            <constraints>
+                <constraint firstItem="267-6w-40c" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="63" id="8mO-f1-qqc"/>
+                <constraint firstItem="267-6w-40c" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="9p0-5t-aVq"/>
+                <constraint firstItem="zCc-Ue-jZn" firstAttribute="top" secondItem="267-6w-40c" secondAttribute="bottom" constant="20" id="D2O-eG-tml"/>
+                <constraint firstItem="zCc-Ue-jZn" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="20" id="KeE-cq-rbZ"/>
+                <constraint firstAttribute="bottom" secondItem="zCc-Ue-jZn" secondAttribute="bottom" constant="20" id="SU8-ey-LbU"/>
+                <constraint firstAttribute="trailing" secondItem="267-6w-40c" secondAttribute="trailing" id="kFM-al-225"/>
+                <constraint firstAttribute="trailing" secondItem="zCc-Ue-jZn" secondAttribute="trailing" constant="20" id="nFQ-IF-brt"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="-1219" y="-29"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="member_button_upload_bg" width="135" height="81"/>
+        <image name="member_button_upload_icon" width="16" height="16"/>
+    </resources>
+</document>

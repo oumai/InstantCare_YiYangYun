@@ -1,0 +1,731 @@
+/*
+ LocalLanguage.strings
+ InstantCare
+ 
+ Created by bruce-zhu on 15/11/27.
+ Copyright © 2015年 omg. All rights reserved.
+ */
+
+"CFBundleDisplayName"  = "Smart Healthcare";
+
+// ------------ 通用 ------------
+"Common_language_status" = "en";
+"Common_save_success" = "Saved successfully";
+"Common_network_request_OK" = "Successful network request";
+"Common_network_request_fail" = "Failed network request";
+"Common_network_request_now" = "Request now";
+"Common_network_uploading" = "Uploading";
+
+"Common_OK" = "OK";
+"Common_cancel" = "Cancel";
+
+"Common_save" = "Save";
+
+"Common_input_error" = "Input error";
+
+// 推送消息
+"Device_low_power" = "Low Power";
+
+// ------------ HTML ----------
+"HTML_type_question"="faq_en.html";
+"HTML_type_help"="HTML_type_help";
+"HTML_type_protocol"="隐私条款_en.html";
+
+"HTML_type_question"="faq_en.html";
+"HTML_type_help_app"="help_app_en.html";
+"HTML_type_help_8000"="help_8000_en.html";
+"HTML_type_help_8010"="help_8010_en.html";
+"HTML_type_protocol"="隐私条款_en.html";
+
+// ------------- VC -------------
+"LaunchVC_button_title" = "Let's try";
+"VC_login_email" = "email";
+"VC_login_phone" = "Phone";
+"VC_login_pd" = "Password";
+"VC_login_userName"="Account";
+
+"VC_login_remember" = "Save login information";
+"VC_login_forgetPd" = "Forgot password?";
+
+"VC_login_login" = "LOGIN";
+"VC_login_OK" = "Confirm";
+"VC_login_Reg" = "REGISTER";
+
+"VC_login_error_input" = "Login failed, please check for username and password!";
+"VC_login_login_now" = "Login";
+"VC_login_login_success" = "Login Successfully";
+"VC_login_login_fail" = "Login Failed";
+"VC_login_foundPassword_fail"="Password back failure";
+"VC_login_foundPassword_success"="Password find success";
+
+
+// ----------- Main VC ----------
+"MAIN_VC_version" = "Version";
+"MAIN_VC_title" = "Main";
+"MAIN_VC_location_btn" = "Location";
+"MAIN_VC_health_btn" = "Health";
+"MAIN_VC_call_btn" = "Voice";
+"MAIN_VC_vip_btn" = "SIM Verify";
+"MAIN_VC_record_btn"="Health records";
+"MAIN_VC_title_basicinfo"="Basic information";
+"MAIN_VC_title_personal"="Personal health records";
+
+
+"MAIN_VC_new_version" = "Software update";
+"MAIN_VC_new_version_msg" = "Find new version, update now?";
+"MAIN_VC_new_version_update" = "update";
+
+"MAIN_VC_menu_accout" = "Accout";
+"MAIN_VC_menu_device" = "Device Setting";
+"MAIN_VC_menu_logout" = "Logout";
+"MAIN_VC_menu_language" = "Language";
+
+// --------- Register VC --------
+"Reg_VC_title" = "Register";
+"Reg_VC_tip_name" = "Name";
+"Reg_VC_tip_nickname" = "Nick Name";
+"Reg_VC_tip_email" = "Email";
+"Reg_VC_tip_password" = "Password";
+"Reg_VC_tip_again_pd" = "Retype new password";
+"Reg_VC_tip_birthday" = "Click to enter your birthday";
+"Reg_VC_tip_address" = "Address";
+"Reg_VC_tip_phone" = "Phone number";
+"Reg_VC_birthday" = "Birthday";
+"Reg_VC_birthday_cancel" = "Cancel";
+"Reg_VC_birthday_OK" = "Confirm";
+"Reg_VC_register_tip" = "E-mail and password are required";
+"Reg_VC_register_password_error" = "Please enter correct password";
+"Reg_VC_register_now" = "Register now";
+"Reg_VC_register_success" = "Registering";
+"Reg_VC_register_fail" = "Registration failed";
+
+"Reg_VC_register_Verify"="Verification code";
+"Reg_VC_register_GetVerify"="get Verification";
+"Reg_VC_register_protocol"="I Agree with These ";
+"Reg_VC_register_protocol_text"="《Terms & Conditions》";
+"Reg_VC_register_finish"="Finish";
+"Reg_VC_register_request_success"="Has been successfully sent verification code, pay attention to check.";
+"Reg_VC_register_request_fail"="Verification code sent failed!";
+"Reg_VC_register_request_wait"="s Later sent";
+"Reg_VC_register_protocol_title"="User agreement";
+
+
+// --------- LogOut ---------
+"Logout_title"="Please choose action type";
+"Logout_message"="Are you sure you want tot logout?";
+
+
+// --------- Location VC --------
+"Location_VC_card_btn" = "Check";
+"Location_VC_history_btn" = "History";
+"Location_VC_SOS_btn" = "SOS";
+"Location_VC_latest_record" = "Record";
+"Location_VC_location_now" = "Positioning";
+"Location_VC_location_fail" = "Fail to locate";
+"Location_VC_location_no_records" = "No record";
+"Location_VC_checkin" = "Check in";
+"Location_VC_checkout" = "Check out";
+"Location_VC_not_checkout" = "Not check out";
+"Location_VC_check_val" = "Check value ";
+"Location_VC_check_records" = "CHECK";
+"Location_VC_his_records" = "TRACK";
+"Location_VC_emg_records" = "SOS";
+"Location_VC_push_emg_records" = "SOS";
+"Location_VC_fall_records" = "FALL";
+"Location_VC_push_fall_records" = "Falldown";
+"Location_VC_Travle_to" = "Immediate Locate";
+
+// --------- Geofence VC --------
+"Geofence_VC_title" = "Geofence";
+"Geofence_VC_time" = "Time Positioning";
+"Geofence_VC_location" = "Location";
+"Geofence_VC_click_notes" = "Click map to get center point of geofence";
+"Geofence_VC_longitude" = "Longitude";
+"Geofence_VC_latitude" = "Latitude";
+"Geofence_VC_radius" = "Radius";
+"Geofence_VC_Geofence_ON" = "Geofence";
+"Geofence_VC_address" = "Address";
+"Geofence_VC_meter" = "m";
+"Geofence_VC_time_interval" = "Interval";
+"Geofence_VC_not_setting" = "Not setting";
+"Geofence_VC_ON_notes" = "ON";
+"Geofence_VC_OFF_notes" = "OFF";
+"Geofence_SearchAddress" = "Search";
+
+
+// ------ Device Setting VC -----
+"BindDevice_VC_title" = "Choose";
+
+// ------ Personal information VC -----
+"Personal_info_Account"="Personal profile";
+"Personal_info_save" = "Save";
+"Personal_info_change_password" = "Edit password";
+"Personal_info_birthday_selectedTime" = "Select Date of Birth";
+"Personal_info_change_oldPassword" = "Password";
+"Personal_info_change_oldPassword_error" = "Old Password error";
+"Personal_info_change_newPassword" = "New password";
+"Person_idCard" = "ID Card";
+"Person_alert"="The ID Card  that you have entered is invalid, please insert again.";
+"Personal_IDCard_alert" = "Id Card save failed please enter a valid id card number.";
+
+// --------- call VC ---------
+"Call_VC_noSet_phone"="Not set phone number";
+
+// ------ Device Setting VC -----
+"DeviceSetting_VC_current_device" = "Using";
+"DeviceSetting_VC_select" = "Please choose action type";
+"DeviceSetting_VC_no_device_bind" = "No device bind, add one now";
+"DeviceSetting_VC_edit" = "Edit";
+"DeviceSetting_VC_delete" = "Delete";
+"DeviceSetting_VC_delete_confirm" = "Are you sure you want to delete?";
+"DeviceSetting_VC_delete_success" = "Removed successfully";
+"DeviceSetting_VC_OK" = "Confirm";
+"DeviceSetting_VC_cancel" = "Cancel";
+"DeviceSetting_VC_add_device" = "Add device";
+"DeviceSetting_VC_add_header_tip" = "Click to add new image";
+"DeviceSetting_VC_add_name" = "Name";
+"DeviceSetting_VC_add_phone" = "Phone Number";
+"DeviceSetting_VC_add_imei" = "IMEI";
+"DeviceSetting_VC_add_imei_error" = "Incorrect IMEI";
+"DeviceSetting_VC_add_OK" = "Confirm";
+"DeviceSetting_VC_add_cancel" = "Cancel";
+"DeviceSetting_VC_edit_change_icon" = "Click to change";
+"DeviceSetting_VC_edit_device_setting" = "Device Setting";
+"DeviceSetting_VC_edit_device_setting_detail" = "GPS start, upload interval...";
+
+"DeviceSetting_VC_edit_header_src" = "Please choose";
+"DeviceSetting_VC_edit_header_src_camera" = "Camera";
+"DeviceSetting_VC_edit_header_src_gallery" = "Gallery";
+
+"DeviceSetting_VC_SIM" = "SIM Card";
+"DeviceSetting_VC_is_SIM" = "Pre Installed SIM Card?";
+"DeviceSetting_VC_YES" = "YES";
+"DeviceSetting_VC_NO" = "NO";
+"DeviceSetting_VC_Preinstalled_SIM" = "SIM Card Number";
+"DeviceSetting_VC_SIM_QRCode" = "IMEI(Bar code)";
+"DeviceSetting_VC_Authentication_Code" = "VerifyCode(Default 123456)";
+"DeviceSetting_VC_agree_protocol" = "I am agree the protocol";
+"DeviceSetting_VC_user_header" = "Photo";
+"DeviceSetting_VC_scan" = "Scan";
+"DeviceSetting_VC_check_again" = "Parameter error";
+"DeviceSetting_VC_agree" = "Please agree the protocol";
+"DeviceSetting_VC_phone"="Not set number";
+
+"DeviceSetting_VC_delete_devices" = "Are you sure to delete this device?";
+"DeviceSetting_VC_alert_refresh" = "Watch is not yet confirmed binding, please make sure the refresh after editing.";
+"DeviceSetting_VC_alert_delete"  = "The watch has not agreed to binding, we will remove the watch!";
+
+// ------------ Device Edit VC ----------
+"DeviceEdit_VC_title" = "Edit Device";
+"DeviceEdit_VC_watch_select_title" = "Please select watch type";
+"DeviceEdit_VC_setting_title_device_auth" = "Verify Code";
+"DeviceEdit_VC_setting_title_device_auth_detail" = "Update、Reset";
+
+"DeviceEdit_VC_setting_title_device_set" = "Device Setting";
+"DeviceEdit_VC_setting_title_device_set_detail" = "Start frequency,Location";
+"DeviceEdit_VC_setting_title_call_set" = "Dial Setting";
+"DeviceEdit_VC_setting_title_call_set_detail" = "Family number, Emergency numbers";
+"DeviceEdit_VC_setting_title_body_set" = "Physical Fitness";
+"DeviceEdit_VC_setting_title_body_set_detail" = "Height, Steps, Weight";
+"DeviceEdit_VC_setting_title_device_remind" = "Remind Setting";
+"DeviceEdit_VC_setting_title_device_remind_detail" = "Set reminder function of visit and take medicine";
+"DeviceEdit_VC_setting_title_device_reset" = "Reset";
+"DeviceEdit_VC_setting_title_device_reset_detail" = "Restore device to original setting";
+"DeviceEdit_VC_setting_title_device_verify_oldVerify" = "Old code";
+"DeviceEdit_VC_setting_title_device_verify_newVerify" = "New code";
+"DeviceEdit_VC_setting_title_device_reset_msg"="Restore to original setting?";
+"DeviceEdit_VC_setting_title_device_reset_success"="Reset the success";
+"DeviceEdit_VC_setting_title_device_reset_fail"="Reset failed";
+"DeviceEdit_VC_setting_title_device_auth_oldCode"="The old authentication codes can't be empty！";
+"DeviceEdit_VC_setting_title_device_auth_newCode"="A new authentication code cannot be empty！";
+"DeviceEdit_VC_setting_title_device_remind_customRemind"="Remind content is not set！";
+"DeviceEdit_VC_setting_title_call_time" = "Call time";
+"DeviceEdit_VC_setting_title_call_min" = "Min";
+"DeviceEdit_VC_setting_title_myWear" = "Current device";
+"DeviceEdit_VC_setting_Authentication" = "SIM card not to identity authentication, please go to the member service center for identity authentication (not for the identity authentication of the SIM card, just three months period of validity)";
+
+
+// ------ Device Setting Detail VC -----
+"DeviceSettingDetail_VC_title" = "Device Setting";
+"DeviceSettingDetail_VC_falldown" = "Fall Detection";
+"DeviceSettingDetail_VC_poweron_time" = "Power on";
+"DeviceSettingDetail_VC_poweroff_time" = "Power off";
+"DeviceSettingDetail_VC_listen" = "Environment monitoring";
+"DeviceSettingDetail_VC_light_on" = "Bright screen";
+"DeviceSettingDetail_VC_start_frequency" = "Start Frequency";
+"DeviceSettingDetail_VC_gps_on" = "GPS start frequency";
+"DeviceSettingDetail_VC_upload" = "Frequency interval";
+
+"DeviceSettingDetail_VC_every" = "Every ";
+"DeviceSettingDetail_VC_every_minute" = " minutes";
+"DeviceSettingDetail_VC_shutdown" = "Turn off";
+
+// --- Device Setting Detial Call VC ---
+"DeviceSettingDetailCall_VC_title" = "Dial Setting";
+"DeviceSettingDetailCall_VC_call_mute" = "Do Not Disturb";
+"DeviceSettingDetailCall_VC_call_limit" = "Call limit";
+"DeviceSettingDetailCall_VC_call_set" = "Call Setting";
+"DeviceSettingDetailCall_VC_call_family_number" = "Family number";
+"DeviceSettingDetailCall_VC_call_sos_number" = "Emergency number";
+"DeviceSettingDetailCall_VC_call_sos" = "Fall number";
+"DeviceSettingDetailCall_VC_call_sos_sms" = "SOS Message";
+
+"DeviceSettingDetailCall_VC_call_first_group" = "First";
+"DeviceSettingDetailCall_VC_call_second_group" = "Second";
+"DeviceSettingDetailCall_VC_call_third_group" = "Third";
+"DeviceSettingDetailCall_VC_call_fourth_group" = "Fourth";
+"DeviceSettingDetailCall_VC_call_default" = "預設號碼不可更改";
+// -- Device Setting Detail Body VC --
+"DeviceSettingDetailBody_VC_step" = "Steps（cm）";
+"DeviceSettingDetailBody_VC_height" = "Height（cm）";
+"DeviceSettingDetailBody_VC_weight" = "Weight（kg）";
+"DeviceSettingDetailBody_VC_alert" = "Please limit in the input range：";
+
+// 周
+"Remind_week_1" = " Mon";
+"Remind_week_2" = " Tues";
+"Remind_week_3" = " Wed";
+"Remind_week_4" = " Thur";
+"Remind_week_5" = " Fri";
+"Remind_week_6" = " Sat";
+"Remind_week_7" = " Sun";
+
+"Remind_week_weekonce" = "Once";
+"Remind_week_week1" = "Monday";
+"Remind_week_week2" = "Tuesday";
+"Remind_week_week3" = "Wednesday";
+"Remind_week_week4" = "Thursday";
+"Remind_week_week5" = "Friday";
+"Remind_week_week6" = "Saturday";
+"Remind_week_week7" = "Sunday";
+
+// -- Remind Setting VC ---
+"RemindSettingVC_clinic" = "Clinical Appointment";
+"RemindSettingVC_clinic_tip" = "Setup reminder";
+"RemindSettingVC_medical" = "Medicine";
+"RemindSettingVC_remind" = "Custom";
+
+"Remind_Start" = "ON/OFF";
+"Remind_Time" = "Time";
+"Remind_info" = "Remind Content";
+"Remind_repeat" = "Repeat";
+"Remind_date" = "A reminder date";
+"Remind_custom_delete_fail"="Delete failed";
+"Remind_TimeChecking" = "Start time must be less than end time!";
+"Remind_TimeIntervalChecking" = "Time interval must be integer!";
+"Remind_TimeIntervalIntChecking" = "Time interval must be integer!";
+
+
+// ------- Health Record VC -----
+"HealthRecord_VC_change_date_start" = "Start";
+"HealthRecord_VC_change_date_end" = "End";
+"HealthRecord_VC_change_date_to" = "To";
+
+"HealthRecord_VC_no_records" = "No records";
+"HealthRecord_VC_blood_pressure" = "BP";
+"HealthRecord_VC_blood_pressure_unit" = "BP(mmHg)";
+"HealthRecord_VC_sbp_title" = "SBP";
+"HealthRecord_VC_dbp_title" = "DBP";
+"HealthRecord_VC_pluse_title" = "Pulse";
+"HealthRecord_VC_pluse_unit" = "/min";
+
+"HealthRecord_VC_blood_sugar" = "BG";
+"HealthRecord_VC_blood_sugar_unit_mmol" = "BS(mmol/L)";
+"HealthRecord_VC_blood_sugar_unit_mg" = "BS(mg/dL)";
+"HealthRecord_VC_blood_sugar_unit_change" = "Unit switch";
+
+"HealthRecord_VC_heart_rate" = "HR";
+"HealthRecord_VC_heart_rate_unit" = "/min";
+"HealthRecord_VC_heart_rate_test" = "Immediate Test";
+
+"HealthRecord_VC_pedometer" = "STEPS";
+"HealthRecord_VC_pedometer_numbers" = "Steps(steps)";
+"HealthRecord_VC_pedometer_cal" = "Calories";
+"HealthRecord_VC_pedometer_cal_unit" = "cal";
+"HealthRecord_VC_pedometer_dis" = "Distance";
+"HealthRecord_VC_pedometer_dis_unit" = "m";
+"HealthRecord_VC_pedometer_standard" = "Standard";
+
+"HealthRecord_VC_sleepAnalysis" = "SLEEP";
+"HealthRecord_VC_sleepTypeDeep" = "DeepSleep";
+"HealthRecord_VC_sleepTypeQuiet" = "QuietSleep";
+"HealthRecord_VC_sleepActiveCount" = "ActiveCount";
+"HealthRecord_VC_sleepActiveCountTime" = "Times";
+"HealthRecord_VC_sleepActiveTime" = "ActiveTime";
+"HealthRecord_VC_sleepHeartRate" = "HR";
+"HealthRecord_VC_sleepAvgHeartRate" = "AVGHR";
+"HealthRecord_VC_sleepMaxHeartRate" = "Max";
+"HealthRecord_VC_sleepMinHeartRate" = "Mini";
+"HealthRecord_VC_sleepTotalTime" = "Total Sleep Time:";
+"HealthRecord_VC_sleepAVGQuality" = "Sleep Quality:";
+"HealthRecord_VC_sleepHeartRateCPM" = "C.P.M.";
+"HealthRecord_VC_sleepHour" = "Hour";
+"HealthRecord_VC_sleepMin" = "Min";
+
+"HealthRecord_VC_bo" = "BO";
+
+"HealthRecord_VC_last_checktime" = "Last check time";
+"HealthRecord_VC_change_date" = "Choose Date";
+
+"HealthRecord_VC_change_date_error" = "Date error";
+
+"HealthRecord_VC_lower_than" = "Lower";
+
+"HealthRecord_VC_last_time" = "Latest measure date";
+
+"HealthRecord_VC_sleepQuality" = "Sleep Quality(%)";
+
+
+// 健康提示
+// 血压
+"HealthRecord_VC_hBP" = "Last measure :High Blood Pressure";
+"HealthRecord_VC_lBP" = "Last measure :Low Blood Pressure";
+"HealthRecord_VC_okBP" = "Last measure :Normal Blood Pressure";
+
+
+"HealthRecord_VC_hBP_Suggest" = "Please note that a low salt, low-fat diet . patients with hypertension intake of daily sodium should be controlled at 3 grams. Quit alcohol , bogey tea, coffee and other irritating foods, eat more whole grains, fruits and vegetables. The proper exercise, the law of life, do not stay up late, to ensure adequate sleep, avoid stress, tension, anxiety, depression and other negative emotional. Weight exceed the standard of weight loss to ideal body weight; Diabetes, hyperlipidemia should be treated actively.\n when measurement result of blood pressure is high, please take full rest , if repeated blood pressure higher results or recently have the chest tightness, dizziness, blurred vision and other symptoms, please medical treat on time.";
+
+"HealthRecord_VC_lBP_Suggest" = "Life should keep the regular to prevent excessive fatigue.Keep the proper exercise to improve physical fitness.Each meal should not eat too much, drink the amount of tea. If repeated low blood pressure, recommended to seek medical help to exclude organic disease problems, and analysis of the current situation of taking the drug, to assess the causes of hypotension.\n if have the physical and symptomatic hypotension, dietary recommendations : appropriatly increase the moisture, salt, caffeine intake, and pay attention to keep adequate nutrition, eating high protein, high vitamin foods, especially those of weak constitution must ensure have the adequate intake of nutrition.\n In addition, regular exercise (especially lower limbs), rise the use of elastic stockings can help blood pressure; daily life should also pay attention to the change of position, to prevent the occurrence of dizziness or fall. Bath time should not be too long, avoid long standing. when wake up, do not suddenly stood up, should be first determined The body has been balanced, and then slowly up";
+
+"HealthRecord_VC_okBP_Suggest" = "Please check again on time，keep normal blood pressure, Best wishes";
+
+// 血糖
+"HealthRecord_VC_hBS" = "Last measure :High Blood Sugar";
+"HealthRecord_VC_lBS" = "Last measure :Low Blood Sugar";
+"HealthRecord_VC_okBS" = "Last measure :Normal Blood Sugar";
+
+"HealthRecord_VC_hBS_Suggest" = "Low sugar,low fat diet, quit alcohol, avoid sugar, like sweet drinks, canned food. Eat more coarse grains, fresh vegetables and less white rice flour, greasy food.Eat fruit, stick to moderate exercise for a long time. Overweight weight must reduce weight;Hypertension or hyperlipidemia should be treated actively.\ n When measuring high blood sugar, please check blood sugar again under the condition of the rest adequately, eliminate infection, trauma. If repeated high blood sugar or in the near future have more drinks, polyphagia, polyuria, blurred vision and other symptoms, please seek immediate diagnosis and treatment.";
+
+"HealthRecord_VC_lBS_Suggest" = "Eat regular meals, increase additional carbohydrate intake before exercise, avoid alcohol and drinking on an empty stomach.  moderate hypoglycemia eat oral syrup, sugary drinks, or eat sweets, biscuits, bread, etc..,that can remission symptom.Drug-induced hypoglycemia should promptly stop using related drugs. Severe and suspected hypoglycemia and coma patients timely should be give the medical treatment. Monitor the blood glucose regularlly，please monitor of blood glucose frequently，especially blood glucose fluctuation, environment is changed and other factors.\n diabetic patients hypoglycemia should to reduce sugar under the guidance of professional doctors: rationally use the insulin or insulin secretagogues";
+
+"HealthRecord_VC_okBS_Suggest" = "Please check again on time，Best wishes";
+
+// 血氧
+"HealthRecord_VC_hBO" = "Last measure :High Blood Oxygen";
+"HealthRecord_VC_lBO" = "Last measure :Low Blood Oxygen";
+"HealthRecord_VC_verylow_BO" = "Last measure :Serious Low Blood Oxygen";
+"HealthRecord_VC_okBO" = "Last measure :Normal Blood Sugar";
+
+"HealthRecord_VC_h100BO_Suggest" = "Advice: Please go to hospital for checking";
+"HealthRecord_VC_h98_100BO_Suggest" = "Advice: Please go to hospital for checking";
+"HealthRecord_VC_lBO_Suggest" = "Please pay attention to rest, light diet, emotional stability, adjusted status and review blood oxygen. \n if the review the result of blood oxygen is still the low: (1) when you are at an altitude of 3000 meters below the location, please medical treated one time. (2) when you are at an altitude of 3000 meters above the position, please pay attention to periodic review ";
+
+"HealthRecord_VC_veryLow_BO_Suggest" = "Please timely give the oxygen, at the same time pay attention to rest, light diet, stable mood, adjust the good state and review the blood oxygen.\n if the review result of blood oxygen is still severe low , please timely medical treated";
+
+"HealthRecord_VC_okBO_Suggest" = "Please check again on time，Best wishes";
+
+// 心率
+"HealthRecord_VC_hHR" = "Last measure :High Heath Rate";
+"HealthRecord_VC_lHR" = "Last measure :Slow Heath Rate";
+"HealthRecord_VC_okHR" = "Last measure :Normal Heath Rate";
+
+"HealthRecord_VC_hHR_Suggest" = "Please note that don't make the excessive physical activity, emotional eating, drinking tea, drinking coffee, smoking, drinking and so on, in order to avoid sympathetic excitement. If the heart rate caused by high fever, anemia, hyperthyroidism, bleeding, pain, hypoxia, tachycardia should be immediately sent to hospital for treatment and etiological diseases caused by heart failure and cardiomyopathy. Ensure what kind of diagnosis causes the tachycardia, according to the condition of reasonable treatment, and pay attention to diet, develop a good routine ";
+
+"HealthRecord_VC_lHR_Suggest" = "Please keep proper rest, diet should be high calorie, high vitamin and digestible food .Usually  take Yiqi Yangxin diet, such as ginseng porridge, jujube porridge, lotus porridge;  Give up smoking drinking, avoid eating without digestion and with excellent food stimulation.if patients with dizziness and other symptoms, and with shortness of breath previously, angina, heart failure or central nervous system dysfunction and other cardiovascular and cerebrovascular disease, please treated in the cardiovascular hospital and clear etiology and heart rate less than 60 BPM";
+
+"HealthRecord_VC_okHR_Suggest" = "Please Check again on time，Best wishes";
+
+// ---------- VIP service -------
+"VIPService_VC_Authentication" = "Authentication";
+"VIPService_VC_upload_persent" = "Uploading";
+"VIPService_VC_upload_complete" = "Recognition";
+
+"VIPService_VC_upload_card_top" = "Top of ID Card";
+"VIPService_VC_upload_card_bottom" = "Bottom of ID Card";
+"VIPService_VC_alert_SIM" = "SIM card, id card must fill out of the front!";
+
+// ----------- call VC ----------
+"Call_VC_calltype" = "Please select call type";
+"Call_VC_SpeedDial" = "Speed Dial";
+"Call_VC_Envlistening" = "Environment Listen";
+"Call_VC_getdevices" = "Get device list";
+"Call_VC_getdevices_success" = "Success";
+"Call_VC_getdevices_fail" = "Fail";
+"Call_VC_getdevices_user_name_not_set" = "User name not set";
+"Call_VC_getdevices_phone_number_not_set" = "Phone Number";
+"Call_VC_getdevices_phone_number_not_set_tip" = "Please set phone number first";
+
+
+// ------ Account Set VC --------
+"AccountSetting_VC_title" = "Account Setting";
+"AccountSetting_VC_btn_title" = "show";
+"AccountSetting_VC_btn_title_hide" = "hide";
+
+// ------ Account Edit VC -------
+"AccountEdit_VC_title" = "Account Setting";
+
+// --------- QRCode VC ----------
+"QRCode_VC_start_camera" = "Start Camera";
+"QRCode_VC_camera_permission" = "Please open the privacy setting to set camera authority";
+
+// -------- MJRefresh -----------
+"MJRefresh_Pull_down_refresh" = "Pull down";
+"MJRefresh_Refresh_Now" = "Refresh Now";
+"MJRefresh_Refreshing_data" = "Refreshing data";
+"MJRefresh_last_update" = "Last Update: ";
+"MJRefresh_last_update_no_record" = "Last update: no_record";
+"SlideVC_person_info" = "Account";
+"SlideVC_device_manage" = "Device";
+"SlideVC_device_call" = "Call";
+"SlideVC_logout" = "Logout";
+"SlideVC_help"="Help";
+"SlideVC_question"="Q&A";
+
+// ------- 自定义提示框提示内容 -------
+// register
+"CustomAlert_phone_title"="Please enter a valid phone number！";
+"CustomAlert_password_title"="Password length can not less than six！";
+"CustomAlert_verity_title"="Captcha content cannot be empty!";
+"CustomAlert_protocol_title"="Please agree to the user agreement!";
+"CustomAlert_againPW_title"="Two input password is not consistent！";
+
+/**-------------------- 8020添加字段 ----------------------*/
+// 提醒
+// 日期范围限定
+"DeviceManager_HealthSetting_alert_time"  = "Start time must be less than end time！";
+"DeviceManager_HealthSetting_alert_span_type"   = "Time interval must be integer！";
+"DeviceManager_HealthSetting_alert_span_limit"  = "Time interval must be equal or greater than 5！";
+"DeviceManager_HealthSetting_alert_limit"       = "Upper limit should be less than lower limit!";
+// 限定范围设定
+"DeviceManager_HealthSetting_alert_range"   =   "Range of numerical value greater than limited scope";
+"DeviceManager_HealthSetting_alert_limit_range"  =  "limited scope";
+
+// 短信设定
+"DeviceManager_HealthSetting_alert_message_length" =  "Message length is beyond border (please limit the input to 170 bytes)！";
+"DeviceManager_HealthSetting_alert_message_limit"  =  "Message content must be consist of letter,digital,Chinese character！";
+"DeviceManager_HealthSetting_alert_message_bytes"  =  "Please limit the input to 140 bytes！";
+
+// 单位
+// DBP低压   SBP高压
+"DeviceManager_HealthSetting_DBP"  = "Low (DBP mmHg)";
+"DeviceManager_HealthSetting_SBP"  = "High（SBP mmHg)";
+//上限  下限
+"DeviceManager_HealthSetting_limit_upper"  =  "Upper Limit";
+"DeviceManager_HealthSetting_limit_lower" =  "Lower Limit";
+//摩尔
+"DeviceManager_HealthSetting_mole"  =  "mmol/L";
+
+/**-------- 心率 ----------*/
+"DeviceManager_HealthSetting_heathRate"  =  "Heart Rate";
+"DeviceManager_HealthSetting_HeathRate_Scope" = "Heart Rate Scope";
+"DeviceManager_HealthSetting_HeathRate_check" = "Time Checking Heart Rate";
+"DeviceManager_HealthSetting_HeathRate_alert" = "Heart Rate Alarm";
+
+/**-------- 血 ----------*/
+"DeviceManager_HealthSetting_bloodSugar" = "Blood Sugar";
+"DeviceManager_HealthSetting_bloodSugar_Scope" = "Blood Sugar Scope";
+"DeviceManager_HealthSetting_blood_Scope" = "Blood Pressure Scope";
+"DeviceManager_HealthSetting_bloodOxygen" = "Blood Oxygen";
+"DeviceManager_HealthSetting_bloodPressure"="Blood Pressure";
+
+
+/**-------- 检测 ----------*/
+"DeviceManager_HealthSetting_sleepMonitor" = "Sleep Monitor";
+"DeviceManager_HealthSetting_sleepMonitor_setting" = "Sleep Monitor Setting";
+"DeviceManager_HealthSetting_Sedentary" = "Sedentary";
+"DeviceManager_HealthSetting_Sedentary_remind" = "Sedentary Remind";
+
+/**-------- 时间区间 ----------*/
+"DeviceManager_HealthSetting"   =   "Heart Setting";
+"DeviceManager_HealthSetting_time_interval" =   "Time Interval";
+"DeviceManager_HealthSetting_time_minute"   =   "Minute";
+"DeviceManager_HealthSetting_time_close"    =   "Close";
+"DeviceManager_HealthSetting_time_start"    =   "Start Time";
+"DeviceManager_HealthSetting_time_end"  =   "End Time";
+"DeviceManager_HealthSetting_time_muteSetting"  =   "Mute Time Setting";
+
+/**-------- 占位字符 ----------*/
+"DeviceManager_HealthSetting_alert_remind_content" = "Please Input Remind Content";
+"DeviceManager_HealthSetting_alert_remind_title" = "Remind Content";
+"DeviceManager_HealthSetting_alert_remind_automatic" = "Auto Model Start";
+"DeviceManager_HealthSetting_alert_call_setting" = "Call Setting";
+"DeviceManager_HealthSetting_alert_call_onceDay" = "Every Day";
+"DeviceManager_HealthSetting_alert_call_onceTime" = "Once";
+"DeviceManager_HealthSetting_alert_call_unSet" = "Not Set";
+
+"DeviceManager_HealthSetting_sex_setting"   =   "Sexy Setting";
+"DeviceManager_HealthSetting_sex_man"   =   "Man";
+"DeviceManager_HealthSetting_sex_woman" =   "Woman";
+"DeviceManager_HealthSetting_sex_unknown"   =   "UnKnown";
+"DeviceManager_HealthSetting_age_setting"   =   "Age Setting";
+"DeviceManager_HealthSetting_position_section_setting"  =   "Position Section Setting";
+"DeviceManager_HealthSetting_sos_message"   =   "SOS Message";
+"DeviceManager_HealthSetting_step"  =   "Step";
+"DeviceManager_HealthSetting_time"  =   "Time";
+"DeviceManager_HealthSetting_interval"  =   "Interval ";
+
+
+// changePassword
+"ChangePassword_DecetionError_oldNull"="Please fill in the old password!";
+"ChangePassword_DecetionError_newNull"="The new password length can not less than six!";
+"ChangePassword_DecetionError_noAgree"="Two input password is not consistent!";
+"ChangePassword_DecetionError_same"="The new password and old password cannot be the same!";
+"ChangePassword_DecetionError_success"="Modify the success!";
+"ChangePassword_DecetionError_fail"="Modify the failure!";
+
+// addRemind
+"Addremind_fail"="Add remind fail";
+"Addremind_success"="Add remind success";
+"editRemind_fail"="Edit fail";
+"editRemind_success"="Edit success";
+
+"forgetPassword_request_inexistence"="Send failure, account does not exist！";
+"forgetPassword_request_fail"="Send failed, please check whether the account is wrong!";
+
+// error code
+"errorCode_2" = "Service internal error";
+"errorCode_1011" = "Account successfully registered";
+"errorCode_1021" = "Account successfully registered";
+"errorCode_1031" = "Invalid verify code or timeout";
+"errorCode_1041" = "Account and password does not match";
+"errorCode_1051" = "Account does not exist";
+"errorCode_1052" = "The account is not enabled, or is frozen";
+"errorCode_1061" = "Invalid verify code or timeout";
+"errorCode_1071" = "Account does not exist or the original password error";
+"errorCode_1101" = "Account does not exist";
+"errorCode_1102" = "Head photo save failed";
+"errorCode_1111" = "Account does not exist";
+"errorCode_1112" = "File data error";
+"errorCode_1121" = "Add JPUSH registionID failed";
+"errorCode_1131" = "Remove JPUSH registionID failed";
+"errorCode_2011" = "First bind failed";
+"errorCode_2012" = "Verify code does not match";
+"errorCode_2013" = "The device not exist";
+"errorCode_2014" = "Device has successfully bind to this account.";
+"errorCode_2021" = "Remove binding failed";
+"errorCode_2022" = "The device is not bound";
+"errorCode_2041" = "The device is not bound";
+"errorCode_2051" = "The device is not bound";
+"errorCode_2081" = "The device is not bound";
+"errorCode_2091" = "No correct original binding code entered";
+"errorCode_2092" = "Binding code update failed";
+"errorCode_2101" = "The device is not bound";
+"errorCode_2102" = "The device does not exist";
+"errorCode_2103" = "Code update failed";
+"errorCode_2111" = "The device is not bound";
+"errorCode_2112" = "Head portrait save failed";
+"errorCode_2121" = "The device is not bound";
+"errorCode_2122" = "Head portrait read failed";
+"errorCode_6011" = "Account does not exist";
+"errorCode_6012" = "Save failed";
+
+"KMVIPServer_IDCard_identify"  =   "Identify ID Card";
+"KMVIPServer_IDCard"  =   "ID Card";
+"KMVIPServer_Name"  =   "Name";
+"KMVIPServer_Sex"  =   "Sex";
+"KMVIPServer_Birthday"  =   "Birthday";
+"KMVIPServer_Address"  =   "Address";
+"KMVIPServer_SIMErrorHint" = "SIM Card NO、ID Card Can't be Empty";
+"KMVIPServer_SIMTextErrorHint" = "SIM is incorrect";
+
+"KMDeviceManager_health_DBP"  =   "DBP";
+"KMDeviceManager_health_SBP"  =   "SBP";
+"KMCommon_alert_Content_null"  =   "Content cannot be empty!";
+
+
+//----------- Local Key
+"sos_urgent_title_key" = "Emergency notice";
+"sos_urgent_alert_key" = "SOS was triggered by %@";
+"sos_fall_title_key"   = "Fall notification";
+"sos_fall_alert_key"   = "Fall notification triggered by %@";
+"oxygent_title_key"	   = "Blood oxygen measurement abnormalities";
+"oxygent_alert_key"	   = "%@ Blood oxygen measurement abnormalities";
+"oxygent_alert_low"	   = "%@ Blood oxygen measurement is low";
+"oxygent_alert_serious_low" =	 "%@ Blood oxygen measurement serious low";
+"ecg_title_key"	 =  "Heart rate abnormal measurement";
+"ecg_alert_high" =	"%@ Heart rate measurement is too high";
+"ecg_alert_low"	 =  "%@ Heart rate measurement is low";
+"blood_pressure_title_key" = "Blood pressure measurement abnormalities";
+"blood_pressure_alert_key" = "%@ Blood pressure measurement abnormalities";
+"glucose_title_key"	= "Abnormal blood glucose measurement";
+"glucose_alert_key"	= "%@ Abnormal blood glucose measurement";
+"setting_fail_title_key" =	"Setting failed";
+"setting_unconnect_server" = "%@ Not connected to the server";
+"setting_bind_fail_key"  =	"Binding failed";
+"setting_hr_fail_key"  = "Heart rate measurement failed";
+"setting_discovery_fail_key" =	"Immediate addressing failed";
+"electric_fence_title_key" = "electric fence";
+"electric_fence_distance_key" = "%@ Leave the electronic fence，error  %@ meter";
+
+
+"healthrecord_vc_measure_value" = "Measure";
+"healthrecord_vc_reference_value" = "Reference";
+
+"DeviceSetting_VC_alert_select"  = "The watch has not agreed to binding!";
+"message_delete_VC" = "Delete";
+"message_all_selected_VC" = "All";
+"nav_message" = "Message";
+"VC_login_save_password" = "Save Password";
+//----------------push--alter-------------------
+"sos_urgent_title_key" = "Emergency Notification";
+"sos_urgent_alert_key" = "Trigger emergency notification";
+"sos_fall_title_key" = "Fall Notification";
+"sos_fall_alert_key" = "Trigger Fall Notification";
+"oxygent_title_key" = "Abnormal blood oxygen level";
+"oxygent_alert_key" = "Abnormal blood oxygen level";
+"oxygent_alert_low" = "Low blood oxygen level";
+"oxygent_alert_serious_low" = "Extremely low blood oxygen level";
+"ecg_title_key" = "Abnormal Heart rate";
+"ecg_alert_high" = "High Heart rate measurement";
+"ecg_alert_low" = "Low Heart rate measurement";
+"blood_pressure_title_key" = "Abnormal Blood pressure level";
+"blood_pressure_alert_key" = "Abnormal Blood pressure level";
+"glucose_title_key" = "Abnormal Blood Glucose level";
+"glucose_alert_key" = "Abnormal Blood Glucose alert level";
+"setting_fail_title_key" = "Setting failed";
+"setting_unconnect_server" = "Not connected to the server";
+"setting_bind_fail_key" = "Bind failed";
+"setting_hr_fail_key" = "Heart rate measurement failure";
+"setting_discovery_fail_key" = "Locating failure";
+"electric_fence_title_key" = "Geo-fencing";
+"electric_fence_distance_key" = "left the geo-fencing area";
+"power_low_key" = "Low battery";
+"power_low_title_key" = "Low Battery Notification";
+"power_off_key" = "Shutdown";
+"power_off_title_key" = "Shutdown Notification";
+"discovery_address_complete_key" = "Location Tracking successful";
+"discovery_address_key" = "Track location immediately";
+"change_setting_title_key" = "Edit Setting";
+"change_setting_success_key" = "Setting changed successfully";
+"current_hr_title_key" = "Real-time Heart rate";
+"current_hr_start_key" = "Real-time heart rate measrement start";
+"discovery_address_start_key" = "Location Tracking start";
+"bind_notification_title_key" = "Bind notification";
+"bind_accept_key" = "Binding successful";
+"bind_refuse_key" = "Binding failed";
+"ecg_alert_fall" = "Watch not in place, unable to detech heart rate";
+"leave_msg_title_key" = "Message Notification";
+"leave_msg_key" = "You have a new message";
+"record_msg_title_key" = "Voice Message Notification";
+"record_msg_key" = "You have a new voice message";
+
+"real_name_authentication" = "Real-name Authentication";
+"simTextField_placeholder" = "Please enter the watch SIM card number";
+"submit" = "Submit";
+"Address" = "Please fill out the detailed address";
+"SubmittedSuccessfully" = "Submitted successfully!";
+"msgLabel" = "We will within ten working days for you, have any questions can call customer service hotline at 400 888 6158 - 1";
+"JKAlert" = "Please fill in the data";
+"sim_not_exist" = "SIM error";
+"sim_real_name_authentication" = "SIM card real name authentication";
+"SIM_card_does_not_exist" = "SIM not exist";
+"Authentication_failed" = "Authentication failed";
+"Auth_Failed" = "Authentication failed!";
+//-----------------------16-12-07新增-----------------------------------
+"KMClinicRemind_VC_Custom_number" = "The custom not be more than 10";
+"DeviceSettingDetailBody_VC_height_description" = "Height";
+"DeviceSettingDetailBody_VC_Reference_steps" = "Steps";
+
+//引导页协议
+"LaunchVC_policy" = "policy_en.html";
+
+"Location_VC_Message_send_failed" = "Message sending failed";
+"Location_VC_Message_send_successfully" = "Message sent successfully";
+
+"message_notification_open" = "Turn on";
+
+"Location_VC_message_Prompt_information" = "Prompt information";
+"Location_VC_message_description" = "The device does not support SMS functionality";
+"Location_VC_message_confirm" = "confirm";
+
+"Device_VC_add_header_Photo" = "Please select a photo";

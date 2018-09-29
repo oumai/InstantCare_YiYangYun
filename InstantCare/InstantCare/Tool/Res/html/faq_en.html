@@ -1,0 +1,127 @@
+
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <style>
+        *{
+            margin:0;
+            padding:0;
+        }
+        #detail {
+            color: #929292;
+            text-indent:1cm;
+        }
+        #headtitle {
+            color: #FFFFFF;
+            background: #35C4A6;
+        }
+        h4{
+            color:#272636;
+            margin-bottom: 10px;
+        }
+        ul li{
+            list-style-type: none;
+            margin-bottom:16px;
+            padding:16px;
+        }
+    </style>
+    <script>
+        window.onload=function()
+        {
+            var aLi=document.getElementsByTagName('li');
+            for(var i=0;i<aLi.length;i++)
+            {
+                if(i%2==0)
+                {
+                    aLi[i].style.background=('#f7f7f7');
+                }
+                else
+                {
+                    aLi[i].style.background=('#fff');
+                }
+            }
+        }
+    </script>
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Starter Template for Bootstrap</title>
+
+    <!-- Bootstrap core CSS -->
+<!--
+    <link href="//cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
+-->
+
+    <!-- Custom styles for this template -->
+<!--
+    <link href="starter-template.css" rel="stylesheet">
+-->
+</head>
+
+<body>
+
+<div class="container">
+    <ul>
+        <li>
+            <h4>When set up the “Emergency Number” and “Family Number” in the app, why didn’t it sync to the smart watch immediately?</h4>
+            <div id="detail">In order to save battery, data of the watch will be uploaded to the server every hour. If you want to upload your data immediately after updating your details, please shut down the smart watch for 5 minutes and switch it on again. The number will upload immediately.</div>
+        </li>
+
+        <li>
+            <h4>Why when pressed the “Emergency button”, the positioning information is not in the map?</h4>
+            <div id="detail">The information will be updated when the GPS, GSM position data is successfully delivered to the server, and according to the different positioning type, it will show different result and accuracy.</div>
+        </li>
+
+        <li>
+            <h4>Why enable 'fall detection' function, sometimes it still a warning when you not fall down？</h4>
+            <div id="detail">Fall detection as an auxiliary function，This function is for reference only，Users can decide whether to enable。when Fall，you can press the red button for help.</div>
+        </li>
+
+        <li>
+            <h4>How much data will the smart watch consume?</h4>
+            <div id="detail">Normally for standby without any SOS, the minimum monthly data usage is about 2-3Mbs. Usage is still based on the actual usage and frequency of use.</div>
+        </li>
+
+        <li>
+            <h4>If set up more than one “Emergency number”, how does it work?</h4>
+            <div id="detail">This will lead in to a loop, whereby if the first number in the list didn’t pick up the phone, then it will automatically dial the next number in the list. Note that this doesn’t work with voice mail.</div>
+        </li>
+
+        <li>
+            <h4>What’s the difference with “Emergency Number” and “Family Number”?</h4>
+            <div id="detail">The “Emergency Number” when pressed will dial and do a GPS positioning immediately. The “Family Number” when pressed will dial the number immediately but does not support real time positioning function.</div>
+        </li>
+
+        <li>
+            <h4>How to set up the smart watch’s Bluetooth measurement equipment?</h4>
+            <div id="detail">In the setup screen, choose “Wireless Settings>Bluetooth”. Power on the Bluetooth and select “My device” and select the equipment that you would like to pair. Tap on and switch on your equipment, you should be able to find it and pair together.</div>
+        </li>
+        
+        <li>
+            <h4>How to use the electronic fence</h4>
+            <div id="detail">Into the data editor page, click the hardware Settings into the hardware Settings page, open the positioning under electronic fence, drag fence radius slider Settings, click save after switch on open the enclosure</div>
+        </li>
+        
+        <li>
+            <h4>The role of the electronic fence</h4>
+            <div id="detail">Control equipment to remind the radius</div>
+        </li>
+        
+    </ul>
+
+</div><!-- /.container -->
+
+
+<!-- Bootstrap core JavaScript
+================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<!--<script src="//cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script>
+<script src="//cdn.bootcss.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>-->
+
+</body>
+</html>
